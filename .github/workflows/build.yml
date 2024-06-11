@@ -27,7 +27,7 @@ jobs:
         url: 'https://api-test.ymparisto.fi/ryhti/plan-public/api/Plan/Validate?planType=31&administrativeAreaIdentifiers=601'
         method: 'POST'
         customHeaders: '{"acccept":"*/*","Content-Type": "application/json","Ocp-Apim-Subscription-Key":"${{ secrets.API_KEY }}"}'
-        file: $${ matrix.file }
+        file: $${{ matrix.file }}
         preventFailureOnNoResponse: true
     - name: Show Response
       run: |
