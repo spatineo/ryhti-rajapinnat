@@ -23,9 +23,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: pick-plan-type
-        run: echo "pt=$(jq '.planType' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
+        run: echo "pt=$(jq -r '.planType' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
       - id: pick-admin-area-ids
-        run: echo "aai=$(jq '.administrativeAreaIdentifiers' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
+        run: echo "aai=$(jq -r '.administrativeAreaIdentifiers' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
       - id: validation
         uses: fjogeleit/http-request-action@v1
         with:
