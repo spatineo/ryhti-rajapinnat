@@ -21,6 +21,7 @@ jobs:
         matrix:
             file: ${{ fromJson(needs.list-examples.outputs.matrix) }}
     steps:
+    - uses: actions/checkout@v2
     - name: Ryhti validation
       uses: fjogeleit/http-request-action@v1
       with:
