@@ -12,7 +12,7 @@ jobs:
       - id: set-matrix
         # Use ls and jq to populate a JSON array of tested files 
         run: >
-          echo "::set-output name=matrix::$(find json-esimerkit -type f -name "*.json" | jq -R -s -c 'split("\n")[:-1]')"
+          echo "::set-output name=matrix::$(find json-esimerkit -type f -name "*.json" | sed 's|\.json||' | jq -R -s -c 'split("\n")[:-1]')"
   
   validate-all:
     needs: list-examples
@@ -21,14 +21,17 @@ jobs:
         matrix:
             file: ${{ fromJson(needs.list-examples.outputs.matrix) }}
     steps:
-    - uses: actions/checkout@v2
-    - id: validation
-      uses: fjogeleit/http-request-action@v1
-      with:
-        url: 'https://api-test.ymparisto.fi/ryhti/plan-public/api/Plan/Validate?'
-        method: 'POST'
-        customHeaders: '{"acccept":"*/*","Content-Type": "application/json","Ocp-Apim-Subscription-Key":"${{ secrets.API_KEY }}"}'
-        data: 'planType=31&administrativeAreaIdentifiers=601'
-        file: ${{ matrix.file }}
-        preventFailureOnNoResponse: true
+      - uses: actions/checkout@v2
+      - id: pick-plan-type
+        run: echo "pt=$(jq '.planType' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
+      - id: pick-admin-area-ids
+        run: echo "aai=$(jq '.administrativeAreaIdentifiers' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
+      - id: validation
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: 'https://api-test.ymparisto.fi/ryhti/plan-public/api/Plan/Validate?planType=${{ steps.pick-plan-type.outputs.pt }}&administrativeAreaIdentifiers=${{ steps.pick-admin-area-ids.outputs.aai }}'
+          method: 'POST'
+          customHeaders: '{"acccept":"*/*","Content-Type": "application/json","Ocp-Apim-Subscription-Key":"${{ secrets.API_KEY }}"}'
+          file: ${{ matrix.file }}.json
+          preventFailureOnNoResponse: true
     
