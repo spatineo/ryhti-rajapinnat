@@ -25,7 +25,7 @@ jobs:
     - id: validation
       uses: fjogeleit/http-request-action@v1
       with:
-        url: 'https://api-test.ymparisto.fi/ryhti/plan-public/api/Plan/Validate'
+        url: 'https://api-test.ymparisto.fi/ryhti/plan-public/api/Plan/Validate?'
         method: 'POST'
         customHeaders: '{"acccept":"*/*","Content-Type": "application/json","Ocp-Apim-Subscription-Key":"${{ secrets.API_KEY }}"}'
         data: 'planType=31&administrativeAreaIdentifiers=601'
