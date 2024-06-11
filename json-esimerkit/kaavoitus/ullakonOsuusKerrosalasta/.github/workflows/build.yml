@@ -1,0 +1,37 @@
+name: build
+
+on: [push, pull_request]
+
+jobs:
+  list-examples:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v2
+      - id: set-matrix
+        # Use ls and jq to populate a JSON array of tested files 
+        run: >
+          echo "::set-output name=matrix::$(ls -r json-esimerkit/**/*.json | jq -R -s -c 'split("\n")[:-1]')"
+  
+  validate-all:
+    needs: list-examples
+    runs-on: ubuntu-latest
+    strategy:
+        matrix:
+            file: ${{ fromJson(needs.list-examples.outputs.matrix) }}
+    steps:
+    - name: Ryhti validation
+      uses: fjogeleit/http-request-action@v1
+      with:
+        url: 'https://api-test.ymparisto.fi/ryhti/plan-public/api/Plan/Validate'
+        method: 'POST'
+        customHeaders: '{"Ocp-Apim-Subscription-Key":"${{ secrets.API_KEY }}"}'
+        data: '{"planType": "31", "administrativeAreaIdentifiers": "601"}'
+        file: $${ matrix.file }
+        preventFailureOnNoResponse: true
+    - name: Show Response
+      run: |
+        echo ${{ steps.myRequest.outputs.response }}
+        echo ${{ steps.myRequest.outputs.headers }}
+        echo ${{ steps.myRequest.outputs.status }}
