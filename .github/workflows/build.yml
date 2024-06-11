@@ -22,7 +22,7 @@ jobs:
             file: ${{ fromJson(needs.list-examples.outputs.matrix) }}
     steps:
     - uses: actions/checkout@v2
-    - name: Ryhti validation
+    - id: validation
       uses: fjogeleit/http-request-action@v1
       with:
         url: 'https://api-test.ymparisto.fi/ryhti/plan-public/api/Plan/Validate?planType=31&administrativeAreaIdentifiers=601'
@@ -32,6 +32,6 @@ jobs:
         preventFailureOnNoResponse: true
     - name: Show Response
       run: |
-        echo ${{ steps.myRequest.outputs.response }}
-        echo ${{ steps.myRequest.outputs.headers }}
-        echo ${{ steps.myRequest.outputs.status }}
+        echo Status: ${{ steps.validation.outputs.status }}
+        echo ${{ fromJson(steps.validation.outputs.response).detail }}
+    
