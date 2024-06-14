@@ -1,4 +1,4 @@
-name: 02-fix_request
+name: Virhe tai puute
 description: "Raportti virheestä tai puutteesta"
 title: "[Korjaus]: "
 labels: ["JSON", "esimerkki"]
