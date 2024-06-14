@@ -1,7 +1,7 @@
-name: Uusi esimerkki
+name: Uusi JSON-esimerkki
 description: "Toive uuden JSON-esimerkin lisäämisestä"
-title: "[Toive]: "
-labels: ["JSON", "esimerkki"]
+title: "Lisättävä esimerkki:"
+labels: ["JSON", "esimerkki", "toive"]
 assignees:
   - ilkkarinne
 body:

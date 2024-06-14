@@ -1,7 +1,7 @@
-name: Virhe tai puute
+name: Virhe tai puute esimerkeissä
 description: "Raportti virheestä tai puutteesta"
-title: "[Korjaus]: "
-labels: ["JSON", "esimerkki"]
+title: "Virhe/puute:"
+labels: ["JSON", "esimerkki", "virheraportti"]
 assignees:
   - ilkkarinne
 body:
