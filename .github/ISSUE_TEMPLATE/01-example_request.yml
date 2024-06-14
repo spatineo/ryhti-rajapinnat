@@ -1,4 +1,4 @@
-name: "Uusi JSON-esimerkki"
+name: 01-example_request
 description: "Toive uuden JSON-esimerkin lisäämisestä"
 title: "[Toive]: "
 labels: ["JSON", "esimerkki"]
