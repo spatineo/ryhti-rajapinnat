@@ -1,0 +1,43 @@
+name: Uusi JSON-esimerkki
+description: Toive uuden JSON-esimerkin lisäämisestä
+title: "[Toive]: "
+labels: ["JSON", "esimerkki"]
+assignees:
+  - ilkkarinne
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Käytä tätä lomaketta toivoaksesi uusia JSON-esimerkkejä lisättäväksi tähän GitHub-repooon. Huomaa, että Spatineon tukipaketin hankkineiden Ryhti-kumppanitestaushankkeiden esittämän toiveet ovat etusijalla toiveiden toteuttamisjärjestyksessä.
+  - type: dropdown
+    id: organisation
+    attributes:
+      label: Ryhti-kumppanitestauhanke
+      description: Missä hankkeessa työskentelet?
+      options:
+        - Lahti
+        - Lappeenranta
+        - Pihtipudas
+        - Seinäjoki
+        - Paimio
+        - Vantaa
+        - Muu (ei Spatineon tukipakettia)
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Yhteystiedot
+      description: Sähköpostiosoite lisätietojen kysymistä varten
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: request
+    attributes:
+      label: Toive
+      description: Kerro, millaista kaava-esimerkkiä toivoisit lisättäväksi
+      placeholder: 
+    validations:
+      required: true

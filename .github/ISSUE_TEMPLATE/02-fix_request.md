@@ -1,0 +1,51 @@
+name: Uusi JSON-esimerkki
+description: Raportti virheestä tai puutteesta
+title: "[Korjaus]: "
+labels: ["JSON", "esimerkki"]
+assignees:
+  - ilkkarinne
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Käytä tätä lomaketta raportoidaksesi virheitä tai puutteita jo laadituissa JSON-esimerkeissä.
+  - type: dropdown
+    id: organisation
+    attributes:
+      label: Ryhti-kumppanitestauhanke
+      description: Missä hankkeessa työskentelet?
+      options:
+        - Lahti
+        - Lappeenranta
+        - Pihtipudas
+        - Seinäjoki
+        - Paimio
+        - Vantaa
+        - Muu (ei Spatineon tukipakettia)
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Yhteystiedot
+      description: Sähköpostiosoite lisätietojen kysymistä varten
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: input
+    id: example
+    attributes:
+      label: Tiedostonimi
+      description: Tiedosto, jossa virhe tai puute esiintyy
+      placeholder: kaavoitus/korkeusasema/SpatialPlan-korkeusasema.json
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Raportti
+      description: Kuvaile esimerkissä esiintyvä virhe tai puute
+      placeholder: 
+    validations:
+      required: true
