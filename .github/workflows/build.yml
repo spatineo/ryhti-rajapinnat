@@ -14,7 +14,7 @@ jobs:
         run: >
           echo "::set-output name=matrix::$(find json-esimerkit -type f -name "*.json" | sed 's|\.json||' | jq -R -s -c 'split("\n")[:-1]')"
   
-  validate-all:
+  ryhti-validate:
     needs: list-examples
     runs-on: ubuntu-latest
     strategy:
