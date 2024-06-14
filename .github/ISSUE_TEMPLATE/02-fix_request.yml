@@ -1,5 +1,5 @@
-name: Uusi JSON-esimerkki
-description: Raportti virheestä tai puutteesta
+name: "Uusi JSON-esimerkki"
+description: "Raportti virheestä tai puutteesta"
 title: "[Korjaus]: "
 labels: ["JSON", "esimerkki"]
 assignees:
@@ -12,8 +12,8 @@ body:
   - type: dropdown
     id: organisation
     attributes:
-      label: Ryhti-kumppanitestauhanke
-      description: Missä hankkeessa työskentelet?
+      label: "Ryhti-kumppanitestaushanke"
+      description: "Missä hankkeessa työskentelet?"
       options:
         - Lahti
         - Lappeenranta
@@ -28,24 +28,23 @@ body:
   - type: input
     id: contact
     attributes:
-      label: Yhteystiedot
-      description: Sähköpostiosoite lisätietojen kysymistä varten
-      placeholder: ex. email@example.com
+      label: "Yhteystiedot"
+      description: "Sähköpostiosoite lisätietojen kysymistä varten"
+      placeholder: "ex. email@example.com"
     validations:
       required: false
   - type: input
-    id: example
+    id: file
     attributes:
-      label: Tiedostonimi
-      description: Tiedosto, jossa virhe tai puute esiintyy
-      placeholder: kaavoitus/korkeusasema/SpatialPlan-korkeusasema.json
+      label: "Tiedostonimi"
+      description: "Tiedosto, jossa virhe tai puute esiintyy"
+      placeholder: "kaavoitus/korkeusasema/SpatialPlan-korkeusasema.json"
     validations:
       required: true
   - type: textarea
     id: request
     attributes:
-      label: Raportti
-      description: Kuvaile esimerkissä esiintyvä virhe tai puute
-      placeholder: 
+      label: "Raportti"
+      description: "Kuvaile esimerkissä esiintyvä virhe tai puute"
     validations:
       required: true

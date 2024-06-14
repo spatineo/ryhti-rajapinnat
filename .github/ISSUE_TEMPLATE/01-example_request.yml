@@ -1,5 +1,5 @@
-name: Uusi JSON-esimerkki
-description: Toive uuden JSON-esimerkin lisäämisestä
+name: "Uusi JSON-esimerkki"
+description: "Toive uuden JSON-esimerkin lisäämisestä"
 title: "[Toive]: "
 labels: ["JSON", "esimerkki"]
 assignees:
@@ -12,8 +12,8 @@ body:
   - type: dropdown
     id: organisation
     attributes:
-      label: Ryhti-kumppanitestauhanke
-      description: Missä hankkeessa työskentelet?
+      label: "Ryhti-kumppanitestaushanke"
+      description: "Missä hankkeessa työskentelet?"
       options:
         - Lahti
         - Lappeenranta
@@ -28,16 +28,15 @@ body:
   - type: input
     id: contact
     attributes:
-      label: Yhteystiedot
-      description: Sähköpostiosoite lisätietojen kysymistä varten
-      placeholder: ex. email@example.com
+      label: "Yhteystiedot"
+      description: "Sähköpostiosoite lisätietojen kysymistä varten"
+      placeholder: "ex. email@example.com"
     validations:
       required: false
   - type: textarea
     id: request
     attributes:
-      label: Toive
-      description: Kerro, millaista kaava-esimerkkiä toivoisit lisättäväksi
-      placeholder: 
+      label: "Toive"
+      description: "Kerro, millaista kaava-esimerkkiä toivoisit lisättäväksi"
     validations:
       required: true
