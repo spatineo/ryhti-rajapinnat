@@ -7,8 +7,7 @@ Tämän repon sisältö on Spatineon ja Ryhti-kumppanitestaushankkeiden tuottama
 
 ## Toiveet uusiksi JSON-esimerkeiksi
 
-Työn alla olevat toiveet ja raportoidut virheet tai puutteet JSON-esimerkkien osalta näkyvät [Issues-välilehdellä](./issues).
-Voit myös itse lähettää toiveita lisättäväksi esimerkeiksi tai raportoida virheitä tai puutteita.
+Työn alla olevat toiveet ja raportoidut virheet tai puutteet JSON-esimerkkien osalta näkyvät tämän GitHub-repon [Issues-välilehdellä](https://github.com/spatineo/ryhti-rajapinnat/issues). Voit myös itse lähettää toiveita lisättäväksi esimerkeiksi tai raportoida virheitä tai puutteita (New issue -painike).
 
 ## Esimerkkien rakenne
 
