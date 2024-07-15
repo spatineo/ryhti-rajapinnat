@@ -1,0 +1,325 @@
+{
+    "planKey": "43ec642a-61d7-427d-9aa1-4046ca994b54",
+    "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+    "planDescription": "Asemakaavahanke pohjautuu kunnan ja maanomistajien aloitteeseen.\n\nKunnan tavoitteena on edistää alueen elinkeinotoimintaa sekä muodostaa alueelle laadukasta ja hyvää ympäristöä.",
+    "geographicalArea": {
+      "srid": "3880",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [26478230.97832, 7029409.73545],
+                [26478319.31953, 7029563.05089],
+                [26478367.60318, 7029567.15694],
+                [26478423.13736, 7029571.87958],
+                [26478592.47984, 7029586.28050],
+                [26478535.52301, 7029392.31324],
+                [26478372.27445, 7029401.65226],
+                [26478230.97832, 7029409.73545]
+            ]
+        ]
+      }
+    },
+    "planObjects": [
+        {
+            "planObjectKey": "c4667f08-4a3b-4113-ace8-cce749facbba",
+            "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+            "name": {
+                "fin": "AL-alueen kaavakohde"
+            },
+            "geometry": {
+                "srid": "3880",
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [26478230.97832, 7029409.73545],
+                            [26478319.31953, 7029563.05089],
+                            [26478367.60318, 7029567.15694],
+                            [26478423.13736, 7029571.87958],
+                            [26478592.47984, 7029586.28050],
+                            [26478535.52301, 7029392.31324],
+                            [26478372.27445, 7029401.65226],
+                            [26478230.97832, 7029409.73545]
+                        ]
+                    ]
+                }
+            },
+            "undergroundStatus": "http://uri.suomi.fi/codelist/rytj/RY_MaanalaisuudenLaji/code/02"
+        }, 
+        {
+            "planObjectKey": "ac314efb-3298-4e26-8358-8a17a16eb0c8",
+            "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+            "name": {
+                "fin": "Rakennusalan kaavakohde (X)"
+            },
+            "geometry": {
+                "srid": "3880",
+                "geometry": {
+                    "type": "Polygon",
+                   "coordinates": [
+                        [
+                            [
+                                26478284.587792057543993,
+                                7029448.382880019024014
+                            ],
+                            [
+                                26478298.90632451698184,
+                                7029489.757671133615077
+                            ],
+                            [
+                                26478313.830975942313671,
+                                7029522.256966729648411
+                            ],
+                            [
+                                26478328.850461836904287,
+                                7029548.678563602268696
+                            ],
+                            [
+                                26478400.438678279519081,
+                                7029546.054580463096499
+                            ],
+                            [
+                                26478375.994662091135979,
+                                7029464.305673082359135
+                            ],
+                            [
+                                26478318.555287003517151,
+                                7029429.272472681477666
+                            ],
+                            [
+                                26478284.587792057543993,
+                                7029448.382880019024014
+                            ]
+                        ]
+                    ]
+                }
+            },
+            "undergroundStatus": "http://uri.suomi.fi/codelist/rytj/RY_MaanalaisuudenLaji/code/02",
+            "relatedPlanObjectKeys": [
+                "c4667f08-4a3b-4113-ace8-cce749facbba" 
+            ]
+        },
+        {
+            "planObjectKey": "7daff381-83f8-40d6-879a-7d63353621c9",
+            "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+            "name": {
+                "fin": "Rakennusalan kaavakohde (XII)"
+            },
+            "geometry": {
+                "srid": "3880",
+                "geometry": {
+                    "type": "Polygon",
+                   "coordinates": [
+                        [
+                            [
+                                26478455.683840297162533,
+                                7029451.987872609868646
+                            ],
+                            [
+                                26478459.687854871153831,
+                                7029495.072244115173817
+                            ],
+                            [
+                                26478479.784359358251095,
+                                7029525.781729518435895
+                            ],
+                            [
+                                26478481.085408829152584,
+                                7029562.277116002514958
+                            ],
+                            [
+                                26478557.39985903725028,
+                                7029556.453475089743733
+                            ],
+                            [
+                                26478525.561856027692556,
+                                7029409.121073144488037
+                            ],
+                            [
+                                26478477.714788258075714,
+                                7029418.662328132428229
+                            ],
+                            [
+                                26478455.683840297162533,
+                                7029451.987872609868646
+                            ]
+                        ]
+                    ]
+                }
+            },
+            "undergroundStatus": "http://uri.suomi.fi/codelist/rytj/RY_MaanalaisuudenLaji/code/02",
+            "relatedPlanObjectKeys": [
+                "c4667f08-4a3b-4113-ace8-cce749facbba" 
+            ]
+        }
+    ],
+    "planRegulationGroups": [
+        {
+            "planRegulationGroupKey": "783f457a-a8cc-4bb6-a491-a15dac0c999f",
+            "titleOfPlanRegulation": {
+                "fin": "Asuin- ja liikerakennusten alue"
+            },
+            "planRegulations": [
+                {
+                    "planRegulationKey": "55e1f047-8c55-432a-9086-1642de870410",
+                    "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+                    "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/asumisenAlue",
+                    "additionalInformations": [
+                        {
+                            "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/paakayttotarkoitus"
+                        }
+                    ]
+                },
+                {
+                    "planRegulationKey": "d603a78a-ed93-42e6-9802-d09646997041",
+                    "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+                    "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/liikerakennustenAlue",
+                    "additionalInformations": [
+                        {
+                            "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/paakayttotarkoitus"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "planRegulationGroupKey": "d3ba28c8-4bfa-4e9b-87c7-5208d9a77b9e",
+            "titleOfPlanRegulation": {
+                "fin": "Rakennusala"
+            },
+            "planRegulations": [
+                {
+                    "planRegulationKey": "51635e36-7531-474c-be5c-0f34912f8419",
+                    "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+                    "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/rakennusala",
+                    "additionalInformations": [
+                        {
+                            "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/osaAlue"
+                        }
+                    ]                 
+                }
+            ]
+        },
+        {
+            "planRegulationGroupKey": "66a85df7-f315-4462-bb7e-0624dcdbfdfb",
+            "titleOfPlanRegulation": {
+                "fin": "Maanpäällinen kerrosluku: X"
+            },
+            "planRegulations": [
+                {
+                    "planRegulationKey": "9f69517f-e87b-425a-9bb4-e0db9da76ea5",
+                    "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+                    "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/maanpaallinenKerroslukuLuku",
+                    "value": {
+                        "dataType": "PositiveNumeric",
+                        "number": 10
+                    }          
+                }
+            ]
+        },
+        {
+            "planRegulationGroupKey": "a32c320d-6780-4002-b46d-456b1d61623b",
+            "titleOfPlanRegulation": {
+                "fin": "Asumisen rakennusoikeus kerrosalaneliömetreinä"
+            },
+            "planRegulations": [
+                {
+                    "planRegulationKey": "8cfb5dbc-8ae9-4476-a57a-8f349f7bc3f3",
+                    "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+                    "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/sallittuKerrosala",
+                    "additionalInformations": [
+                        {
+                            "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/kayttotarkoituskohdistus",
+                            "value": {
+                                "dataType": "Code",
+                                "code": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/asumisenAlue",
+                                "codeList": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji"
+                            }
+                        }
+                    ],
+                    "value": {
+                        "dataType": "PositiveNumeric",
+                        "number": 6000,
+                        "unitOfMeasure": "k-m2"
+                    }
+                }
+            ]
+        },
+        {
+            "planRegulationGroupKey": "c5e647b4-628e-448e-8c3f-a47a000347d1",
+            "titleOfPlanRegulation": {
+                "fin": "Maanpäällinen kerrosluku: XII"
+            },
+            "planRegulations": [
+                {
+                    "planRegulationKey": "d88e2eb1-047e-41e1-88bc-b285047e4452",
+                    "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+                    "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/maanpaallinenKerroslukuLuku",
+                    "value": {
+                        "dataType": "PositiveNumeric",
+                        "number": 12
+                    }          
+                }
+            ]
+        },
+        {
+            "planRegulationGroupKey": "6993467f-3035-476f-a143-c90deee680bd",
+            "titleOfPlanRegulation": {
+                "fin": "Liiketilan rakennusoikeus kerrosalaneliömetreinä"
+            },
+            "planRegulations": [
+                {
+                    "planRegulationKey": "6a6060c9-f6f3-404a-a925-a5285d135dd4",
+                    "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+                    "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/sallittuKerrosala",
+                    "additionalInformations": [
+                        {
+                            "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/kayttotarkoituskohdistus",
+                            "value": {
+                                "dataType": "Code",
+                                "code": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/liikerakennustenAlue",
+                                "codeList": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji"
+                            }
+                        }
+                    ],
+                    "value": {
+                        "dataType": "PositiveNumeric",
+                        "number": 4000,
+                        "unitOfMeasure": "k-m2"
+                    }
+                }
+            ]
+        }
+    ],
+    "planRegulationGroupRelations": [
+        {
+            "planObjectKey": "c4667f08-4a3b-4113-ace8-cce749facbba",
+            "planRegulationGroupKey": "783f457a-a8cc-4bb6-a491-a15dac0c999f"
+        },
+        {
+            "planObjectKey": "ac314efb-3298-4e26-8358-8a17a16eb0c8",
+            "planRegulationGroupKey": "d3ba28c8-4bfa-4e9b-87c7-5208d9a77b9e"
+        },
+        {
+            "planObjectKey": "7daff381-83f8-40d6-879a-7d63353621c9",
+            "planRegulationGroupKey": "d3ba28c8-4bfa-4e9b-87c7-5208d9a77b9e"
+        },
+        {
+            "planObjectKey": "ac314efb-3298-4e26-8358-8a17a16eb0c8",
+            "planRegulationGroupKey": "66a85df7-f315-4462-bb7e-0624dcdbfdfb"
+        },
+        {
+            "planObjectKey": "7daff381-83f8-40d6-879a-7d63353621c9",
+            "planRegulationGroupKey": "c5e647b4-628e-448e-8c3f-a47a000347d1"
+        },
+        {
+            "planObjectKey": "7daff381-83f8-40d6-879a-7d63353621c9",
+            "planRegulationGroupKey": "a32c320d-6780-4002-b46d-456b1d61623b"
+        },
+        {
+            "planObjectKey": "ac314efb-3298-4e26-8358-8a17a16eb0c8",
+            "planRegulationGroupKey": "6993467f-3035-476f-a143-c90deee680bd"
+        }
+    ]
+}
