@@ -43,11 +43,11 @@ jobs:
           echo '```json' >> ${{ matrix.file }}.md
           echo "$(yq -o=json eval ${{ matrix.file }}.yml)" >> ${{ matrix.file }}.md
           echo '```' >> ${{ matrix.file }}.md
-      - id: diff
-        run: echo "changed=$(git diff --exit-code ${{ matrix.file }}.md)" >> "$GITHUB_OUTPUT"
+#      - id: diff
+#        run: echo "changed=$(git diff --exit-code ${{ matrix.file }}.md)" >> "$GITHUB_OUTPUT"
       - id: commit_files
         name: Commit files
-        if: ${{ steps.diff.outputs.changed }}
+#        if: ${{ steps.diff.outputs.changed }}
         run:
           git config --local user.name "actions-user[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
