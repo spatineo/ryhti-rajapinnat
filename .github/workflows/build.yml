@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: set-matrix
-        # Use ls and jq to populate a JSON array of tested files 
+        # Use find and jq to populate a JSON array of example files 
         run: >
           echo "::set-output name=matrix::$(find json-esimerkit -type f -name "SpatialPlan-*.json" | sed 's|\.json||' | jq -R -s -c 'split("\n")[:-1]')"
   
