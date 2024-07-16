@@ -39,8 +39,6 @@ jobs:
         run: |
           echo "# ${{ matrix.file }} " > ${{ matrix.file }}.md
           echo "Automaattisesti generoitu YAML-tiedostosta ${{ matrix.file }}.yml. Älä muokkaa tätä tiedostoa käsin." >> ${{ matrix.file }}.md
-          echo "" >> ${{ matrix.file }}.md
-          echo "Generointiaika: $(date)" >> ${{ matrix.file }}.md
           echo '```json' >> ${{ matrix.file }}.md
           echo "$(yq -o=json eval ${{ matrix.file }}.yml)" >> ${{ matrix.file }}.md
           echo '```' >> ${{ matrix.file }}.md
