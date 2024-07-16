@@ -44,14 +44,14 @@ jobs:
           echo "$(yq -o=json eval ${{ matrix.file }}.yml)" >> ${{ matrix.file }}.md
           echo '```' >> ${{ matrix.file }}.md
       - id: commit_update
-        if: ${{ steps.md-gen.outputs.existedBefore }}
+        if: ${{ ! steps.md-gen.outputs.existedBefore }}
         run: |
           git config --local user.name "actions-user[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git diff --quiet || (git add ${{ matrix.file }}.md && git commit -m "Updated MD file ${{ matrix.file }}.md")
           git push
       - id: commit_new
-        if: ${{ ! steps.md-gen.outputs.existedBefore }}
+        if: ${{ steps.md-gen.outputs.existedBefore }}
         run: |
           git config --local user.name "actions-user[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
