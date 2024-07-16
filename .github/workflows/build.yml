@@ -12,7 +12,7 @@ jobs:
       - id: set-matrix
         # Use find and jq to populate a JSON array of example files 
         run: >
-          echo "::set-output name=matrix::$(find json-esimerkit -type f -name "SpatialPlan-*.json" | sed 's|\.json||' | jq -R -s -c 'split("\n")[:-1]')"
+          echo "::set-output name=matrix::$(find json-esimerkit -type f -name "SpatialPlan-*.yml" | sed 's|\.yml||' | jq -R -s -c 'split("\n")[:-1]')"
   
   ryhti-validate:
     needs: list-examples
@@ -26,12 +26,18 @@ jobs:
         run: echo "pt=$(jq -r '.planType' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
       - id: pick-admin-area-ids
         run: echo "aai=$(jq -r '.administrativeAreaIdentifiers' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
+      - id: generate-json
+        run: >
+          echo 'RESULT<<EOF' >> "$GITHUB_OUTPUT"
+          echo yq -o=json eval ${{ matrix.file }}.yml >> "$GITHUB_OUTPUT"
+          echo 'EOF' >> "$GITHUB_OUTPUT"
       - id: validation
         uses: fjogeleit/http-request-action@v1
         with:
           url: 'https://api-test.ymparisto.fi/ryhti/plan-public/api/Plan/Validate?planType=${{ steps.pick-plan-type.outputs.pt }}&administrativeAreaIdentifiers=${{ steps.pick-admin-area-ids.outputs.aai }}'
           method: 'POST'
           customHeaders: '{"acccept":"*/*","Content-Type": "application/json","Ocp-Apim-Subscription-Key":"${{ secrets.API_KEY }}"}'
-          file: ${{ matrix.file }}.json
+          #file: ${{ matrix.file }}.json
+          data: ${{ steps.generate-json.outputs }}
           preventFailureOnNoResponse: true
     
