@@ -37,6 +37,6 @@ jobs:
           method: 'POST'
           customHeaders: '{"acccept":"*/*","Content-Type": "application/json","Ocp-Apim-Subscription-Key":"${{ secrets.API_KEY }}"}'
           #file: ${{ matrix.file }}.json
-          data: ${{ steps.generate-json.outputs }}
+          data: '${{ steps.generate-json.outputs }}'
           preventFailureOnNoResponse: true
     
