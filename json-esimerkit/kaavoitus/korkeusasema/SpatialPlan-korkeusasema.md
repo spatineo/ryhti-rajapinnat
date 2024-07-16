@@ -1,7 +1,5 @@
 # json-esimerkit/kaavoitus/korkeusasema/SpatialPlan-korkeusasema 
 Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/korkeusasema/SpatialPlan-korkeusasema.yml. Älä muokkaa tätä tiedostoa käsin.
-
-Generointiaika: Tue Jul 16 14:01:52 UTC 2024
 ```json
 {
   "planKey": "43ec642a-61d7-427d-9aa1-4046ca994b54",
