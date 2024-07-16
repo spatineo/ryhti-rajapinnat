@@ -47,5 +47,5 @@ jobs:
         run: |
           git config --local user.name "actions-user[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet || (git add ${{ matrix.file }}.md && git commit -m "Generated MD file ${{ matrix.file }}.md")
+          git diff -N --quiet || (git add ${{ matrix.file }}.md && git commit -m "Generated MD file ${{ matrix.file }}.md")
           git push
