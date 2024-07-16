@@ -8,7 +8,7 @@ jobs:
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - id: set-matrix
         # Use ls and jq to populate a JSON array of tested files 
         run: >
@@ -21,7 +21,7 @@ jobs:
         matrix:
             file: ${{ fromJson(needs.list-examples.outputs.matrix) }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - id: pick-plan-type
         run: echo "pt=$(jq -r '.planType' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
       - id: pick-admin-area-ids
