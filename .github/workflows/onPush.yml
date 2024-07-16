@@ -37,19 +37,20 @@ jobs:
           data: '${{ steps.json-from-yaml.outputs.result }}'
           preventFailureOnNoResponse: true
       - id: md-gen
-        run: 
+        run:
           echo "# ${{ matrix.file }} " > ${{ matrix.file }}.md
           echo "Automaattisesti generoitu tiedostosta ${{ matrix.file }}.yml" >> ${{ matrix.file }}.md
           echo '```json' >> ${{ matrix.file }}.md
           echo "$(yq -o=json eval ${{ matrix.file }}.yml)" >> ${{ matrix.file }}.md
           echo '```' >> ${{ matrix.file }}.md
+      - id: diff
+        run: echo "changed=$(git diff ${{ matrix.file }}.md --exit-code)" >> "$GITHUB_OUTPUT"
       - id: commit_files
-        name: Commit files 
+        name: Commit files
+        if: ${{ steps.diff.outputs.changed }}
         run:
-          git config --local user.name actions-user
-          git config --local user.email "actions@github.com"
-          if ! git diff --exit-code; then
-              git add ${{ matrix.file }}.md
-              git commit -am "GH Action Files added $(date)"
-              git push -f origin main
-          fi
+          git config --local user.name "actions-user[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add ${{ matrix.file }}.md
+          git commit -am "Generated MD file added on $(date)"
+          git push
