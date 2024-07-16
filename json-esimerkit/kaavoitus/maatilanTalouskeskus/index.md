@@ -1,6 +1,7 @@
 # Maatilan talouskeskus
 
 ## YAML
+
 ```yaml
 planKey: 43ec642a-61d7-427d-9aa1-4046ca994b54
 lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
@@ -34,6 +35,8 @@ geographicalArea:
 planObjects:
   - planObjectKey: 7c093fdb-21e3-4ba7-8a20-aa682ce56666
     lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+     name:
+      fin: Korttelialueen kaavakohde
     undergroundStatus: http://uri.suomi.fi/codelist/rytj/RY_MaanalaisuudenLaji/code/02
     geometry:
       srid: '3880'
@@ -93,9 +96,9 @@ planRegulationGroups:
           - >-
             http://uri.suomi.fi/codelist/rytj/RY_Sanallisen_Kaavamaarayksen_Laji/code/ymparistohairiot
 planRegulationGroupRelations:
+  # Maatilojen talouskeskusten korttelialue -> Korttelialueen kaavakohde
   - planObjectKey: 7c093fdb-21e3-4ba7-8a20-aa682ce56666
     planRegulationGroupKey: b4e8033a-20dc-4eea-90f5-b0f7fa3f985d
-
 
 ```
 
