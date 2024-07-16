@@ -31,7 +31,7 @@ jobs:
           echo yq -o=json eval ${{ matrix.file }}.yml >> "$GITHUB_OUTPUT"
           echo 'EOF' >> "$GITHUB_OUTPUT"
       - id: disp
-        run: echo "${{ steps.generate-json.outputs }}"
+        run: echo "${{ fromJson(steps.generate-json.outputs) }}"
       - id: validation
         uses: fjogeleit/http-request-action@v1
         with:
@@ -39,6 +39,6 @@ jobs:
           method: 'POST'
           customHeaders: '{"acccept":"*/*","Content-Type": "application/json","Ocp-Apim-Subscription-Key":"${{ secrets.API_KEY }}"}'
           #file: ${{ matrix.file }}.json
-          data: ${{ steps.generate-json.outputs }}
+          data: ${{ fromJson(steps.generate-json.outputs) }}
           preventFailureOnNoResponse: true
     
