@@ -44,7 +44,7 @@ jobs:
           echo "$(yq -o=json eval ${{ matrix.file }}.yml)" >> ${{ matrix.file }}.md
           echo '```' >> ${{ matrix.file }}.md
       - id: diff
-        run: echo "changed=$(git diff ${{ matrix.file }}.md --exit-code)" >> "$GITHUB_OUTPUT"
+        run: echo "changed=$(git diff --exit-code ${{ matrix.file }}.md)" >> "$GITHUB_OUTPUT"
       - id: commit_files
         name: Commit files
         if: ${{ steps.diff.outputs.changed }}
