@@ -6,13 +6,13 @@ jobs:
   list-examples:
     runs-on: ubuntu-latest
     outputs:
-      matrix: ${{ steps.set-matrix.outputs.matrix }}
+      matrix: ${{ steps.set-matrix.outputs.matr }}
     steps:
       - uses: actions/checkout@v4
       - id: set-matrix
         # Use find and jq to populate a JSON array of example files 
         run: >
-          echo "matrix=$(find json-esimerkit -type f -name "SpatialPlan-*.yml" | sed 's|\.yml||' | jq -R -s -c 'split("\n")[:-1]')" >> "$GITHUB_OUTPUT"
+          echo "matr=$(find json-esimerkit -type f -name "SpatialPlan-*.yml" | sed 's|\.yml||' | jq -R -s -c 'split("\n")[:-1]')" >> "$GITHUB_OUTPUT"
   ryhti-validate:
     needs: list-examples
     runs-on: ubuntu-latest
@@ -25,11 +25,8 @@ jobs:
         run: echo "pt=$(jq -r '.planType' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
       - id: pick-admin-area-ids
         run: echo "aai=$(jq -r '.administrativeAreaIdentifiers' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
-      - id: generate-json
-        run: |
-          echo 'result<<EOF' >> "$GITHUB_OUTPUT"
-          echo $(yq -o=json eval ${{ matrix.file }}.yml) >> "$GITHUB_OUTPUT"
-          echo 'EOF' >> "$GITHUB_OUTPUT"
+      - id: json-from-yaml
+        run: echo "result=$(yq -o=json -I0 eval ${{ matrix.file }}.yml)" >> "$GITHUB_OUTPUT"
       - id: validation
         uses: fjogeleit/http-request-action@v1
         with:
@@ -37,6 +34,6 @@ jobs:
           method: 'POST'
           customHeaders: '{"acccept":"*/*","Content-Type": "application/json","Ocp-Apim-Subscription-Key":"${{ secrets.API_KEY }}"}'
           #file: ${{ matrix.file }}.json
-          data: '${{ steps.generate-json.outputs }}'
+          data: '${{ steps.json-from-yaml.outputs.result }}'
           preventFailureOnNoResponse: true
     
