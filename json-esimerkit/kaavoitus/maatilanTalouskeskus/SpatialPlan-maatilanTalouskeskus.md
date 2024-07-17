@@ -51,6 +51,9 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/maatilanTalo
     {
       "planObjectKey": "7c093fdb-21e3-4ba7-8a20-aa682ce56666",
       "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+      "name": {
+        "fin": "Talouskeskuksen kaavakohde"
+      },
       "undergroundStatus": "http://uri.suomi.fi/codelist/rytj/RY_MaanalaisuudenLaji/code/02",
       "geometry": {
         "srid": "3880",
