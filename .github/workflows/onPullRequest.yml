@@ -30,8 +30,8 @@ jobs:
       - id: validation
         uses: fjogeleit/http-request-action@v1
         with:
-          url: 'https://api-test.ymparisto.fi/ryhti/plan-public/api/Plan/Validate?planType=${{ steps.pick-plan-type.outputs.pt }}&administrativeAreaIdentifiers=${{ steps.pick-admin-area-ids.outputs.aai }}'
+          url: 'https://api.ymparisto.fi/ryhti/plan-public/api/Plan/Validate?planType=${{ steps.pick-plan-type.outputs.pt }}&administrativeAreaIdentifiers=${{ steps.pick-admin-area-ids.outputs.aai }}'
           method: 'POST'
-          customHeaders: '{"acccept":"*/*","Content-Type": "application/json","Ocp-Apim-Subscription-Key":"${{ secrets.API_KEY }}"}'
+          customHeaders: '{"acccept":"*/*","Content-Type": "application/json","Ocp-Apim-Subscription-Key":"${{ secrets.API_KEY_PROD }}"}'
           data: '${{ steps.json-from-yaml.outputs.result }}'
           preventFailureOnNoResponse: true
