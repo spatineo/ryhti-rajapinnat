@@ -17,8 +17,9 @@ jobs:
     needs: list-examples
     runs-on: ubuntu-latest
     strategy:
-        matrix:
-            file: ${{ fromJson(needs.list-examples.outputs.matrix) }}
+      matrix:
+        file: ${{ fromJson(needs.list-examples.outputs.matrix) }}
+      max-parallel: 1
     steps:
       - uses: actions/checkout@v4
       - id: pick-plan-type
