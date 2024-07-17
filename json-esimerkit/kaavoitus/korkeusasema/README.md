@@ -6,4 +6,4 @@ Esimerkkejä [Korkeusasema](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaj
 
 YAML: [SpatialPlan-korkeusasema.yml](./SpatialPlan-korkeusasema.yml)
 
-JSON: [JSON-SpatialPlan-korkeusasema.md](./SpatialPlan-korkeusasema.md) (generoitu automaattisesti)
+JSON: [SpatialPlan-korkeusasema.md](./SpatialPlan-korkeusasema.md) (generoitu automaattisesti)

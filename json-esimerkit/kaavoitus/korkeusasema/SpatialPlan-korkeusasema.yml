@@ -117,13 +117,13 @@ planRegulationGroups:
           number: 66.3
           unitOfMeasure: m
 planRegulationGroupRelations:
-  # Kerrostalovaltainen asuntoalue -> AK-alueen kaavakohde 
+    # Kerrostalovaltainen asuntoalue -> AK-alueen kaavakohde: 
   - planObjectKey: 7c093fdb-21e3-4ba7-8a20-aa682ce56666
     planRegulationGroupKey: 783f457a-a8cc-4bb6-a491-a15dac0c999f
-  # Rakennusala -> Rakennusalan kaavakohde
+    # Rakennusala -> Rakennusalan kaavakohde:
   - planObjectKey: ac314efb-3298-4e26-8358-8a17a16eb0c8
     planRegulationGroupKey: d3ba28c8-4bfa-4e9b-87c7-5208d9a77b9e
-  # Rakennusten korkeusasema -> Rakennusalan kaavakohde
+    # Rakennusten korkeusasema -> Rakennusalan kaavakohde:
   - planObjectKey: ac314efb-3298-4e26-8358-8a17a16eb0c8
     planRegulationGroupKey: b4e8033a-20dc-4eea-90f5-b0f7fa3f985d
 
