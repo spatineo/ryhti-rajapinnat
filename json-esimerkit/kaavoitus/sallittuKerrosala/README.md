@@ -12,6 +12,8 @@ JSON: [SpatialPlan-kayttotarkoituksenOsuusKerrosalasta](./SpatialPlan-kayttotark
 ## SpatialPlan-kayttotarkoituskohdistus
 ![kuva esimerkista](kuvat/kayttotarkoituskohdistus-syke.png "Käyttötarkoituskohdistus")
 
+Esimerkissä onm myös AL-alueen kaavakohde ja sen aluevaraus annettu, toisin kuin yo. kuvassa.
+
 YAML: [SpatialPlan-kayttotarkoituskohdistus.yml](./SpatialPlan-kayttotarkoituskohdistus.yml)
 
 JSON: [SpatialPlan-kayttotarkoituskohdistus](./SpatialPlan-kayttotarkoituskohdistus.md) (generoitu automaattisesti)
