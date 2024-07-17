@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: set-matrix
-        # Use find and jq to populate a JSON array of example files 
+        # Use find and jq to populate a JSON array of example files for the matrix
         run: >
           echo "matr=$(find json-esimerkit -type f -name "SpatialPlan-*.yml" | sed 's|\.yml||' | jq -R -s -c 'split("\n")[:-1]')" >> "$GITHUB_OUTPUT"
   ryhti-validate:
@@ -22,9 +22,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: pick-plan-type
-        run: echo "pt=$(jq -r '.planType' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
+        run: echo "pt=$(yq -r '.planType' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
       - id: pick-admin-area-ids
-        run: echo "aai=$(jq -r '.administrativeAreaIdentifiers' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
+        run: echo "aai=$(yq -r '.administrativeAreaIdentifiers' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
       - id: json-from-yaml
         run: echo "result=$(yq -o=json -I0 eval ${{ matrix.file }}.yml)" >> "$GITHUB_OUTPUT"
       - id: validation
@@ -37,21 +37,21 @@ jobs:
           preventFailureOnNoResponse: true
       - id: md-gen
         run: |
-          echo "existedBefore=$(test -f ${{ matrix.file }}.md)" >> "$GITHUB_OUTPUT"
+          echo "existedBefore=$(test -f ${{ matrix.file }}.md && echo 1)" >> "$GITHUB_OUTPUT"
           echo "# ${{ matrix.file }} " > ${{ matrix.file }}.md
           echo "Automaattisesti generoitu YAML-tiedostosta ${{ matrix.file }}.yml. Älä muokkaa tätä tiedostoa käsin." >> ${{ matrix.file }}.md
           echo '```json' >> ${{ matrix.file }}.md
           echo "$(yq -o=json eval ${{ matrix.file }}.yml)" >> ${{ matrix.file }}.md
           echo '```' >> ${{ matrix.file }}.md
-      - id: commit_update
-        if: ${{ ! steps.md-gen.outputs.existedBefore }}
+      - id: commit-update
+        if: ${{ steps.md-gen.outputs.existedBefore }}
         run: |
           git config --local user.name "actions-user[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git diff --quiet || (git add ${{ matrix.file }}.md && git commit -m "Updated MD file ${{ matrix.file }}.md")
           git push
-      - id: commit_new
-        if: ${{ steps.md-gen.outputs.existedBefore }}
+      - id: commit-new
+        if: ${{ ! steps.md-gen.outputs.existedBefore }}
         run: |
           git config --local user.name "actions-user[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
