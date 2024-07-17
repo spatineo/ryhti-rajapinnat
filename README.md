@@ -13,13 +13,20 @@ Työn alla olevat toiveet ja raportoidut virheet tai puutteet JSON-esimerkkien o
 
 JSON-esimerkit lisätään hakemiston ```json-esimerkit``` alle, kaavatiedon osalta sen alihakemistoon ```kaavoitus```. Tämän alla kullekin kaavamääräyslajille tulee oma alihakemistonsa, johon ko. kaavamääräyslajin käytön eri esimerkkejä kootaan.
 
-Toistaiseksi voidaan lisätä vain Kaava-luokan (SpatialPlan) esimerkkejä, koska Syke ei tarjoa kokonaisen Kaava-asia -esimerkkien validointiin julkista rajapintaa. Kaava-esimerkki -tietostojen nimen tulee alkaa merkkijonolla "SpatialPlan-" ja niillä tulee olla tiedostopääte ".json". Samassa hakemistossa JSON-esimerkin kanssa tulee myös olla samanniminen tietosto, joka tiedostopääte on ".meta". Tässä tiedostossa annetaan esimerkissä käytettävä kaavalaji ja hallinnollisen alueen tunnus, esim.
+Esimerkit kirjoitetaan ja tallennetaan YAML-formaatissa, ei suoraan JSON-formaatissa. Validoitia varten ne muunnetaan automaattisesti JSON-formaatiin, koska Ryhti-rajapinta vaatii JSON-formaatin käyttämistä. Pääasiallinen syy YAML-muodon käyttöön on se, että JSON-formaattiin ei ole mahdollista kirjoittaa selittäviä kommenttirivejä, jotka esimerkkitiedoistoissa ovat tärkeitä. YAML-formaatti on myös hieman kompaktimpi kuin JSON, ja kenties myös hieman JSON-koodia luettavampi. Toisaalta YAML-formaatin sisennyksiin ja välimerkkeihin perustuva rakenteen kuvaus on myös JSON-muotoa herkempi syntaksivirheille.
 
-```json
-{
-  "planType": "31",
-  "administrativeAreaIdentifiers": "601"
-}
+YAML-muotoisista esimerkkitiedoistoista generoidaan automaattisesti myös vastaavat Markdown-tiedostostot (.md), jotka sisältävät YAML-dokumementin muunnettuna JSON-formaatiin, jotta kopiointi omaan käyttöön on helppoa. 
+
+YAML-formaatissa olevan tiedoston saa itse muunnettua JSON-muotoon esimerkiksi [yq](https://github.com/mikefarah/yq)-komentorivityökalulla:
+```
+yq -o=json SpatialPlan-ullakonSallittuOsuusKerrosalasta.yml
+```
+
+Toistaiseksi voidaan lisätä vain Kaava-luokan (SpatialPlan) esimerkkejä, koska Syke ei tarjoa kokonaisen Kaava-asia -esimerkkien validointiin julkista rajapintaa. Kaava-esimerkki -tietostojen nimen tulee alkaa merkkijonolla "SpatialPlan-" ja niillä tulee olla tiedostopääte ".yml". Samassa hakemistossa YAML-esimerkin kanssa tulee myös olla samanniminen YAML-tietosto, joka tiedostopääte on ".meta". Tässä tiedostossa annetaan esimerkissä käytettävä kaavalaji ja hallinnollisen alueen tunnus, esim.
+
+```yaml
+planType: '31',
+administrativeAreaIdentifiers: '601'
 ```
 
 ## Omien esimerkkien lisääminen repoon
