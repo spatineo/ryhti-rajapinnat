@@ -73,7 +73,7 @@ planRegulationGroups:
               dataType: Code
               code: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/maatilanTalouskeskuksenAlue
 planRegulationGroupRelations:
-    # Maatilojen talouskeskusten korttelialue -> Talouskeskuksen kaavakohde:
+    # Asumisen korttelialue poislukien maatilan talouskeskus -> Asumisen alueen kaavakohde:
   - planObjectKey: 7c093fdb-21e3-4ba7-8a20-aa682ce56666
     planRegulationGroupKey: b4e8033a-20dc-4eea-90f5-b0f7fa3f985d
 
