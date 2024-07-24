@@ -21,20 +21,6 @@ jobs:
         file: ${{ fromJson(needs.list-examples.outputs.matrix) }}
     steps:
       - uses: actions/checkout@v4
-      - id: pick-plan-type
-        run: echo "pt=$(yq -r '.planType' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
-      - id: pick-admin-area-ids
-        run: echo "aai=$(yq -r '.administrativeAreaIdentifiers' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
-      - id: json-from-yaml
-        run: echo "result=$(yq -o=json -I0 eval ${{ matrix.file }}.yml)" >> "$GITHUB_OUTPUT"
-      - id: validation
-        uses: fjogeleit/http-request-action@v1
-        with:
-          url: 'https://api.ymparisto.fi/ryhti/plan-public/api/Plan/Validate?planType=${{ steps.pick-plan-type.outputs.pt }}&administrativeAreaIdentifiers=${{ steps.pick-admin-area-ids.outputs.aai }}'
-          method: 'POST'
-          customHeaders: '{"acccept":"*/*","Content-Type": "application/json","Ocp-Apim-Subscription-Key":"${{ secrets.API_KEY_PROD }}"}'
-          data: '${{ steps.json-from-yaml.outputs.result }}'
-          preventFailureOnNoResponse: true
       - id: md-gen
         run: |
           echo "existedBefore=$(test -f ${{ matrix.file }}.md && echo 1)" >> "$GITHUB_OUTPUT"
@@ -60,3 +46,18 @@ jobs:
           git add -f ${{ matrix.file }}.md
           git commit -m "Created MD file ${{ matrix.file }}.md"
           git push
+      - id: pick-plan-type
+        run: echo "pt=$(yq -r '.planType' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
+      - id: pick-admin-area-ids
+        run: echo "aai=$(yq -r '.administrativeAreaIdentifiers' ${{ matrix.file }}.meta)" >> "$GITHUB_OUTPUT"
+      - id: json-from-yaml
+        run: echo "result=$(yq -o=json -I0 eval ${{ matrix.file }}.yml)" >> "$GITHUB_OUTPUT"
+      - id: validation
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: 'https://api.ymparisto.fi/ryhti/plan-public/api/Plan/Validate?planType=${{ steps.pick-plan-type.outputs.pt }}&administrativeAreaIdentifiers=${{ steps.pick-admin-area-ids.outputs.aai }}'
+          method: 'POST'
+          customHeaders: '{"acccept":"*/*","Content-Type": "application/json","Ocp-Apim-Subscription-Key":"${{ secrets.API_KEY_PROD }}"}'
+          data: '${{ steps.json-from-yaml.outputs.result }}'
+          preventFailureOnNoResponse: true
+      
