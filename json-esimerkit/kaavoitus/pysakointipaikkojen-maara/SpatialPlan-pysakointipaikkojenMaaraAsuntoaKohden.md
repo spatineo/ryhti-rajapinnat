@@ -134,7 +134,7 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/pysakointipa
           }
         },
         {
-          "planRegulationKey": null,
+          "planRegulationKey": "223fdc50-bdbe-4ecf-b313-eb77e8dd6c08",
           "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
           "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/pyorapaikkojenMaaraAsuntoaKohden",
           "value": {
