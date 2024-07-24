@@ -1,0 +1,264 @@
+# json-esimerkit/kaavoitus/pysakointipaikkojen-maara/SpatialPlan-kerrosneliomaaraYhtaPysakointipaikkaaKohden 
+Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/pysakointipaikkojen-maara/SpatialPlan-kerrosneliomaaraYhtaPysakointipaikkaaKohden.yml. Älä muokkaa tätä tiedostoa käsin.
+```json
+{
+  "planKey": "43ec642a-61d7-427d-9aa1-4046ca994b54",
+  "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+  "planDescription": "Asemakaavahanke pohjautuu kunnan ja maanomistajien aloitteeseen.\n\nKunnan tavoitteena on edistää alueen elinkeinotoimintaa sekä muodostaa alueelle laadukasta ja hyvää ympäristöä.",
+  "geographicalArea": {
+    "srid": "3880",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            26478230.97832,
+            7029409.73545
+          ],
+          [
+            26478319.31953,
+            7029563.05089
+          ],
+          [
+            26478367.60318,
+            7029567.15694
+          ],
+          [
+            26478423.13736,
+            7029571.87958
+          ],
+          [
+            26478592.47984,
+            7029586.2805
+          ],
+          [
+            26478535.52301,
+            7029392.31324
+          ],
+          [
+            26478372.27445,
+            7029401.65226
+          ],
+          [
+            26478230.97832,
+            7029409.73545
+          ]
+        ]
+      ]
+    }
+  },
+  "planObjects": [
+    {
+      "planObjectKey": "c4667f08-4a3b-4113-ace8-cce749facbba",
+      "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+      "name": {
+        "fin": "AK-alueen kaavakohde"
+      },
+      "geometry": {
+        "srid": "3880",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                26478230.97832,
+                7029409.73545
+              ],
+              [
+                26478319.31953,
+                7029563.05089
+              ],
+              [
+                26478367.60318,
+                7029567.15694
+              ],
+              [
+                26478423.13736,
+                7029571.87958
+              ],
+              [
+                26478592.47984,
+                7029586.2805
+              ],
+              [
+                26478535.52301,
+                7029392.31324
+              ],
+              [
+                26478372.27445,
+                7029401.65226
+              ],
+              [
+                26478230.97832,
+                7029409.73545
+              ]
+            ]
+          ]
+        }
+      },
+      "undergroundStatus": "http://uri.suomi.fi/codelist/rytj/RY_MaanalaisuudenLaji/code/02"
+    },
+    {
+      "planObjectKey": "ac314efb-3298-4e26-8358-8a17a16eb0c8",
+      "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+      "name": {
+        "fin": "Maanalaisen auton säilytyspaikan kaavakohde"
+      },
+      "geometry": {
+        "srid": "3880",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                26478230.97832,
+                7029409.73545
+              ],
+              [
+                26478319.31953,
+                7029563.05089
+              ],
+              [
+                26478367.60318,
+                7029567.15694
+              ],
+              [
+                26478423.13736,
+                7029571.87958
+              ],
+              [
+                26478592.47984,
+                7029586.2805
+              ],
+              [
+                26478535.52301,
+                7029392.31324
+              ],
+              [
+                26478372.27445,
+                7029401.65226
+              ],
+              [
+                26478230.97832,
+                7029409.73545
+              ]
+            ]
+          ]
+        }
+      },
+      "undergroundStatus": "http://uri.suomi.fi/codelist/rytj/RY_MaanalaisuudenLaji/code/01",
+      "relatedPlanObjectKeys": [
+        "c4667f08-4a3b-4113-ace8-cce749facbba"
+      ]
+    }
+  ],
+  "planRegulationGroups": [
+    {
+      "planRegulationGroupKey": "783f457a-a8cc-4bb6-a491-a15dac0c999f",
+      "titleOfPlanRegulation": {
+        "fin": "Kerrostalovaltainen asuntoalue"
+      },
+      "planRegulations": [
+        {
+          "planRegulationKey": "55e1f047-8c55-432a-9086-1642de870410",
+          "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+          "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/asuinkerrostaloalue",
+          "additionalInformations": [
+            {
+              "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/paakayttotarkoitus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "planRegulationGroupKey": "d3ba28c8-4bfa-4e9b-87c7-5208d9a77b9e",
+      "titleOfPlanRegulation": {
+        "fin": "Auton säilytyspaikan rakennusala"
+      },
+      "planRegulations": [
+        {
+          "planRegulationKey": "51635e36-7531-474c-be5c-0f34912f8419",
+          "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+          "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/rakennusala",
+          "additionalInformations": [
+            {
+              "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/osaAlue"
+            },
+            {
+              "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/kayttotarkoituskohdistus",
+              "value": {
+                "dataType": "Code",
+                "code": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/pysakoinninAlue",
+                "codeList": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "planRegulationGroupKey": "8bad201c-2969-4717-b8b5-ff40d4be0855",
+      "titleOfPlanRegulation": {
+        "fin": "Rakennusoikeus kerrosalaneliömetreinä"
+      },
+      "planRegulations": [
+        {
+          "planRegulationKey": "425cacfe-c217-4095-a362-6fd9a98aac6a",
+          "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+          "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/sallittuKerrosala",
+          "value": {
+            "dataType": "PositiveNumeric",
+            "number": 2300,
+            "unitOfMeasure": "k-m2"
+          }
+        }
+      ]
+    },
+    {
+      "planRegulationGroupKey": "b3bcc433-f424-414d-b3f2-cee006f50823",
+      "titleOfPlanRegulation": {
+        "fin": "Määräys osoittaa, kuinka monta kerrosalaneliömetriä kohti on rakennettava yksi autopaikka"
+      },
+      "planRegulations": [
+        {
+          "planRegulationKey": "15aea3bc-0653-4f91-8815-cb2e4b8813d4",
+          "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+          "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/kerrosneliomaaraYhtaAutopaikkaaKohden",
+          "value": {
+            "dataType": "PositiveNumeric",
+            "number": 41
+          }
+        },
+        {
+          "planRegulationKey": "15aea3bc-0653-4f91-8815-cb2e4b8813d4",
+          "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+          "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/kerrosneliomaaraYhtaPyorapaikkaaKohden",
+          "value": {
+            "dataType": "PositiveNumeric",
+            "number": 20
+          }
+        }
+      ]
+    }
+  ],
+  "planRegulationGroupRelations": [
+    {
+      "planObjectKey": "c4667f08-4a3b-4113-ace8-cce749facbba",
+      "planRegulationGroupKey": "783f457a-a8cc-4bb6-a491-a15dac0c999f"
+    },
+    {
+      "planObjectKey": "ac314efb-3298-4e26-8358-8a17a16eb0c8",
+      "planRegulationGroupKey": "d3ba28c8-4bfa-4e9b-87c7-5208d9a77b9e"
+    },
+    {
+      "planObjectKey": "c4667f08-4a3b-4113-ace8-cce749facbba",
+      "planRegulationGroupKey": "b3bcc433-f424-414d-b3f2-cee006f50823"
+    },
+    {
+      "planObjectKey": "c4667f08-4a3b-4113-ace8-cce749facbba",
+      "planRegulationGroupKey": "8bad201c-2969-4717-b8b5-ff40d4be0855"
+    }
+  ]
+}
+```
