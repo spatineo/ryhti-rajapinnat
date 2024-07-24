@@ -18,6 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       max-parallel: 1
+      fail-fast: false
       matrix:
         file: ${{ fromJson(needs.list-examples.outputs.matrix) }}
     steps:
