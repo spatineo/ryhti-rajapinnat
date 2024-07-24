@@ -34,7 +34,7 @@ jobs:
         run: |
           git config --local user.name "actions-user[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --ff-only
+          git pull --all --ff-only
           git diff --quiet || (git add -f ${{ matrix.file }}.md && git commit -m "Updated MD file ${{ matrix.file }}.md")
           git push
       - id: commit-new
@@ -42,7 +42,7 @@ jobs:
         run: |
           git config --local user.name "actions-user[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --ff-only
+          git pull --all --ff-only
           git add -f ${{ matrix.file }}.md
           git commit -m "Created MD file ${{ matrix.file }}.md"
           git push
