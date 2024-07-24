@@ -77,7 +77,7 @@ planRegulationGroups:
         value:
           dataType: PositiveDecimal
           number: 0.4
-      - planRegulationKey: 
+      - planRegulationKey: 223fdc50-bdbe-4ecf-b313-eb77e8dd6c08
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
         type: >-
           http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/pyorapaikkojenMaaraAsuntoaKohden
