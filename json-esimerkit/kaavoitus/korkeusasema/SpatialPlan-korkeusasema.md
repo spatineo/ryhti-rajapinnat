@@ -210,7 +210,7 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/korkeusasema
           "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
           "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/rakennustenRakenteidenJaLaitteidenAlinKorkeusasema",
           "value": {
-            "dataType": "PositiveDecimal",
+            "dataType": "Decimal",
             "number": 25,
             "unitOfMeasure": "m"
           }
