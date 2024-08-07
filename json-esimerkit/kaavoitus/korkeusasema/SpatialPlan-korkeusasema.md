@@ -204,6 +204,16 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/korkeusasema
             "number": 66.3,
             "unitOfMeasure": "m"
           }
+        },
+        {
+          "planRegulationKey": "fece18b9-74d0-4067-a48e-b30577300e42",
+          "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+          "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/rakennustenRakenteidenJaLaitteidenAlinKorkeusasema",
+          "value": {
+            "dataType": "PositiveDecimal",
+            "number": 25,
+            "unitOfMeasure": "m"
+          }
         }
       ]
     }
