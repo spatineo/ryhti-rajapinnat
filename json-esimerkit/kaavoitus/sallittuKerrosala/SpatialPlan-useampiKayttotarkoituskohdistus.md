@@ -317,7 +317,7 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/sallittuKerr
     {
       "planRegulationGroupKey": "6993467f-3035-476f-a143-c90deee680bd",
       "titleOfPlanRegulation": {
-        "fin": "Määräys osoittaa, kuinka monta kerrosneliömetriä rakennusalalle sallitusta kerrosalasta saadaan käyttää liiketilaa varten"
+        "fin": "Määräys osoittaa, kuinka monta kerrosneliömetriä rakennusalalle sallitusta kerrosalasta saadaan käyttää asumista ja liiketilaa varten"
       },
       "planRegulations": [
         {
@@ -349,7 +349,7 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/sallittuKerr
               "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/kayttotarkoituskohdistus",
               "value": {
                 "dataType": "Code",
-                "code": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/toimistorakennustenAlue",
+                "code": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/asumisenAlue",
                 "codeList": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji"
               }
             }
