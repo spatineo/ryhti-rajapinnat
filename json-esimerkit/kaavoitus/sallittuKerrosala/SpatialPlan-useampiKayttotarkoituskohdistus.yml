@@ -183,7 +183,7 @@ planRegulationGroups:
           number: 12
   - planRegulationGroupKey: 6993467f-3035-476f-a143-c90deee680bd
     titleOfPlanRegulation:
-      fin: Määräys osoittaa, kuinka monta kerrosneliömetriä rakennusalalle sallitusta kerrosalasta saadaan käyttää liiketilaa varten
+      fin: Määräys osoittaa, kuinka monta kerrosneliömetriä rakennusalalle sallitusta kerrosalasta saadaan käyttää asumista ja liiketilaa varten
     planRegulations:
       - planRegulationKey: 6a6060c9-f6f3-404a-a925-a5285d135dd4
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
@@ -211,7 +211,7 @@ planRegulationGroups:
             value:
               dataType: Code
               code: >-
-                http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/toimistorakennustenAlue
+                http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/asumisenAlue
               codeList: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji
         value:
           dataType: PositiveNumeric
@@ -238,11 +238,11 @@ planRegulationGroupRelations:
   - planObjectKey: 7daff381-83f8-40d6-879a-7d63353621c9
     planRegulationGroupKey: c5e647b4-628e-448e-8c3f-a47a000347d1
     #
-    # Asumiselle varattu rakennusoikeus kerrosalaneliömetreinä -> Rakennusalan kaavakohde (XII):
+    # Asumiselle ja liiketilalle varattu rakennusoikeus kerrosalaneliömetreinä -> Rakennusalan kaavakohde (XII):
   - planObjectKey: 7daff381-83f8-40d6-879a-7d63353621c9
     planRegulationGroupKey: a32c320d-6780-4002-b46d-456b1d61623b
     #
-    # Liike- ja toimistorakentamiselle varattu rakennusoikeus kerrosalaneliömetreinä -> Rakennusalan kaavakohde (X):
+    # Asumiselle varattu rakennusoikeus kerrosalaneliömetreinä -> Rakennusalan kaavakohde (X):
   - planObjectKey: ac314efb-3298-4e26-8358-8a17a16eb0c8
     planRegulationGroupKey: 6993467f-3035-476f-a143-c90deee680bd
 
