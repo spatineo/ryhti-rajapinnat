@@ -116,6 +116,14 @@ planRegulationGroups:
           dataType: Decimal
           number: 66.3
           unitOfMeasure: m
+      - planRegulationKey: fece18b9-74d0-4067-a48e-b30577300e42
+        lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+        type: >-
+          http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/rakennustenRakenteidenJaLaitteidenAlinKorkeusasema
+        value:
+          dataType: Decimal
+          number: 25.0
+          unitOfMeasure: m
 planRegulationGroupRelations:
     # Kerrostalovaltainen asuntoalue -> AK-alueen kaavakohde: 
   - planObjectKey: 7c093fdb-21e3-4ba7-8a20-aa682ce56666
