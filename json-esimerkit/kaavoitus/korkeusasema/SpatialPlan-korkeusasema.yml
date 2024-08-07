@@ -121,7 +121,7 @@ planRegulationGroups:
         type: >-
           http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/rakennustenRakenteidenJaLaitteidenAlinKorkeusasema
         value:
-          dataType: PositiveDecimal
+          dataType: Decimal
           number: 25.0
           unitOfMeasure: m
 planRegulationGroupRelations:
