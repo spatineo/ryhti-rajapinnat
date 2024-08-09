@@ -163,7 +163,7 @@ Tiedosto on validoitu onnistuneesti Ryhti-testikäyttöliittymällä 9.8.2024
             "attachmentDocumentKey": "1404ccd3-f531-4c41-92ef-d32612f23866",
             "documentIdentifier": "document-98765",
             "name": {
-              "fin": "Kaupunkivaltuuston kokous 1.1.2024 - pöytäkirja"
+              "fin": "Kaupunginvaltuuston kokous 1.1.2024 - pöytäkirja"
             },
             "personalDataContent": "http://uri.suomi.fi/codelist/rytj/henkilotietosisalto/code/1",
             "categoryOfPublicity": "http://uri.suomi.fi/codelist/rytj/julkisuus/code/1",
@@ -188,7 +188,7 @@ Tiedosto on validoitu onnistuneesti Ryhti-testikäyttöliittymällä 9.8.2024
             "attachmentDocumentKey": "2fa3b85a-de75-41d7-acf1-45270d11ebae",
             "documentIdentifier": "docuemnt-75849479",
             "name": {
-              "fin": "Kaupunkivaltuuston hyväksymispäätös"
+              "fin": "Kaupunginvaltuuston hyväksymispäätös"
             },
             "personalDataContent": "http://uri.suomi.fi/codelist/rytj/henkilotietosisalto/code/1",
             "categoryOfPublicity": "http://uri.suomi.fi/codelist/rytj/julkisuus/code/1",

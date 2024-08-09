@@ -119,7 +119,7 @@ planMatterPhases:
         - attachmentDocumentKey: 1404ccd3-f531-4c41-92ef-d32612f23866
           documentIdentifier: document-98765
           name:
-            fin: Kaupunkivaltuuston kokous 1.1.2024 - pöytäkirja
+            fin: Kaupunginvaltuuston kokous 1.1.2024 - pöytäkirja
           # Koodi 1: Ei sisällä henkilötietoja:
           personalDataContent: http://uri.suomi.fi/codelist/rytj/henkilotietosisalto/code/1
           # Koodi 1: Julkinen asiakirja:
@@ -148,7 +148,7 @@ planMatterPhases:
         - attachmentDocumentKey: 2fa3b85a-de75-41d7-acf1-45270d11ebae
           documentIdentifier: docuemnt-75849479
           name:
-            fin: Kaupunkivaltuuston hyväksymispäätös
+            fin: Kaupunginvaltuuston hyväksymispäätös
           # Koodi 1: Ei sisällä henkilötietoja:
           personalDataContent: http://uri.suomi.fi/codelist/rytj/henkilotietosisalto/code/1
           # Koodi 1: Julkinen asiakirja:
