@@ -1,10 +1,27 @@
 #/bin/bash
 POSITIONAL_ARGS=()
 
+show_usage() {
+    echo "Usage: ryhti-validate [--test] --api-key <api-key> [--plan-type <planTypeCode>] [--area-ids <id1,id2,id3,..>] <file>"
+    echo
+    echo "Note: plan-type and area-ids have to be provided either as arguments"
+    echo "or in the corresponding '.meta' YAML file (the latter only works with YAML input files)."
+    echo "The '.meta' file needs to have exactly the path as the '.yml' input file, except the"
+    echo "'.yml' extension changed to '.meta'."
+    echo
+    echo "Example of the '.meta' file content:"
+    echo "  planType: '31'"
+    echo "  administrativeAreaIdentifiers: '601'"
+}
+
 while [[ $# -gt 0 ]]; do
   case $1 in
     -t|--test)
       USE_TEST=YES
+      shift # past argument
+      ;;
+    -s|--show-input)
+      SHOW_INPUT=YES
       shift # past argument
       ;;
     -k|--api-key)
@@ -24,6 +41,7 @@ while [[ $# -gt 0 ]]; do
       ;;
     -*|--*)
       echo "Unknown option $1"
+      show_usage
       exit 1
       ;;
     *)
@@ -57,10 +75,7 @@ command -v jq >/dev/null 2>&1 || { echo >&2 "jq is not installed, or not in PATH
 command -v curl >/dev/null 2>&1 || { echo >&2 "curl is not installed, or not in PATH.  Aborting."; exit 1; }
 
 if [[ "$API_KEY" == "" || "$FILE_PATH" == "" || "$PLAN_TYPE" == "" || "$AREA_IDS" == "" ]]; then
-    echo "Usage: ryhti-validate [--test] --api-key <api-key> [--plan-type <planTypeCode>] [--area-ids <id1,id2,id3,..>] <file>"
-    echo
-    echo "Note: plan-type and area-ids have to be provided either as arguments"
-    echo "or in the corresponding '.meta' YAML file (the latter only works with YAML input files)." 
+    show_usage
     exit 1
 fi
 
@@ -70,19 +85,28 @@ else
     SERVICE_URL=https://api.ymparisto.fi/ryhti/plan-public/api/Plan/Validate
 fi 
 
-printf "Validating %s.." $FILE_PATH
+
 if [[ "$FILE_PATH" =~ .*\.yml$ ]]; then
     JSON=$(yq -o=json eval $1)
 else
     JSON=$(cat $1)
 fi
+if [[ "$SHOW_INPUT" == "YES" ]]; then
+    echo "Input:"
+    printf "%s\n" "$JSON"  
+fi
+printf "%s\n" "$JSON" | jq empty
 if [[ $? -eq 0 ]]; then
+    printf "Validating .."
     RES=$(printf "$JSON" | curl -s -X 'POST' "$SERVICE_URL?planType=$PLAN_TYPE&administrativeAreaIdentifiers=$AREA_IDS" -H 'accept: */*' -H "Ocp-Apim-Subscription-Key: $API_KEY" -H 'Content-Type: application/json' --data @-)
     if [[ "$RES" == "" ]]; then
-        echo "valid OK!"
+        echo "OK!"
     else
         echo "error:"
         printf "%s" "$RES" | jq
         exit 1
     fi
+else
+  echo "Invalid JSON input, aborted"
+  exit 1
 fi
