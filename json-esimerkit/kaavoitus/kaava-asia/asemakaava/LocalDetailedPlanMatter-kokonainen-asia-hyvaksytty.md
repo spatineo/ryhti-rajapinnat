@@ -27,7 +27,7 @@ Tiedosto on validoitu onnistuneesti Ryhti-testikäyttöliittymällä 9.8.2024
   "digitalOrigin": "http://uri.suomi.fi/codelist/rytj/RY_DigitaalinenAlkupera/code/01",
   "responsibleParty": {
     "planOperatorKey": "037245fd-2b19-4e00-bdd2-ba5ff5976f49",
-    "organizationName": "Kunnan Y kaupunginavaltuusto"
+    "organizationName": "Kunnan Y kaupunginvaltuusto"
   },
   "participationAndAssessmentScheme": {
     "participationAndAssessmentSchemeKey": "aaa4d563-fe5f-4023-9b1d-501e6f3fdedc",
