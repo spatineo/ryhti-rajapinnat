@@ -59,7 +59,8 @@ command -v curl >/dev/null 2>&1 || { echo >&2 "curl is not installed, or not in 
 if [[ "$API_KEY" == "" || "$FILE_PATH" == "" || "$PLAN_TYPE" == "" || "$AREA_IDS" == "" ]]; then
     echo "Usage: ryhti-validate [--test] --api-key <api-key> [--plan-type <planTypeCode>] [--area-ids <id1,id2,id3,..>] <file>"
     echo
-    echo "Note: plan-type and area-ids have to be provided either as arguments or as in the '.meta' YAML file" 
+    echo "Note: plan-type and area-ids have to be provided either as arguments"
+    echo "or in the corresponding '.meta' YAML file (the latter only works with YAML input files)." 
     exit 1
 fi
 
