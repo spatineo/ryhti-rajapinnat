@@ -76,12 +76,12 @@ else
     JSON=$(cat $1)
 fi
 if [[ $? -eq 0 ]]; then
-    IFS=
     RES=$(printf "$JSON" | curl -s -X 'POST' "$SERVICE_URL?planType=$PLAN_TYPE&administrativeAreaIdentifiers=$AREA_IDS" -H 'accept: */*' -H "Ocp-Apim-Subscription-Key: $API_KEY" -H 'Content-Type: application/json' --data @-)
     if [[ "$RES" == "" ]]; then
         echo "valid OK!"
     else
         echo "error:"
-        printf "%s" $RES | jq
+        printf "%s" "$RES" | jq
+        exit 1
     fi
 fi
