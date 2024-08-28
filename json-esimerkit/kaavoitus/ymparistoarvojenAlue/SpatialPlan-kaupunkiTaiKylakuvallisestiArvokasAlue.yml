@@ -90,8 +90,7 @@ planRegulationGroups:
     planRegulations:
       - planRegulationKey: 55e1f047-8c55-432a-9086-1642de870410
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
-        type: >-
-          http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/kulttuurirakennustenAlue
+        type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/kulttuurirakennustenAlue
         additionalInformations:
           - type: >-
               http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/paakayttotarkoitus
