@@ -1,7 +1,7 @@
 # json-esimerkit/kaavoitus/kaava-asia/asemakaava/LocalDetailedPlan-kokonainen-asia-hyvaksytty
 Seuraava JSON-tiedosto on generoitu suoraan YAML-tiedostosta [LocalDetailedPlan-kokonainen-asia-hyvaksytty.yml](./LocalDetailedPlanMatter-kokonainen-asia-hyvaksytty.yml). Huomaa, että tiedoston sisältö ei ole täysi realistinen.
 
-Tiedosto on validoitu onnistuneesti Ryhti-testikäyttöliittymällä 9.8.2024
+Tiedosto on validoitu onnistuneesti Ryhti-testikäyttöliittymällä 26.9.2024
 
 ```json
 {
@@ -150,7 +150,7 @@ Tiedosto on validoitu onnistuneesti Ryhti-testikäyttöliittymällä 9.8.2024
           ]
         }
       },
-      "planHandlingEvent": {
+      "handlingEvent": {
         "handlingEventKey": "1d25370f-2ed0-48e8-b034-896e4a7287fb",
         "handlingEventType": "http://uri.suomi.fi/codelist/rytj/kaavakastap/code/11",
         "eventTime": "2024-01-01",
