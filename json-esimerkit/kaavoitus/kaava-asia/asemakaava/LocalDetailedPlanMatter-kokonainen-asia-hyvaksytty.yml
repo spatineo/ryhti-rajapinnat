@@ -107,7 +107,7 @@ planMatterPhases:
               - 7029401.65226
             - - 26478230.97832
               - 7029409.73545
-    planHandlingEvent:
+    handlingEvent:
       handlingEventKey: 1d25370f-2ed0-48e8-b034-896e4a7287fb
       # 11 - Kaavan hyväksyminen:
       handlingEventType: http://uri.suomi.fi/codelist/rytj/kaavakastap/code/11
