@@ -317,7 +317,7 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/sallittuKerr
     {
       "planRegulationGroupKey": "6993467f-3035-476f-a143-c90deee680bd",
       "titleOfPlanRegulation": {
-        "fin": "Määräys osoittaa, kuinka monta kerrosneliömetriä rakennusalalle sallitusta kerrosalasta saadaan käyttää asumista ja liiketilaa varten"
+        "fin": "Määräys osoittaa, kuinka monta kerrosneliömetriä rakennusalalle sallitusta kerrosalasta saadaan käyttää liiketilaa varten"
       },
       "planRegulations": [
         {
@@ -339,7 +339,15 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/sallittuKerr
             "number": 2500,
             "unitOfMeasure": "k-m2"
           }
-        },
+        }
+      ]
+    },
+    {
+      "planRegulationGroupKey": "36b21587-a476-486e-8501-5ac70fea31ea",
+      "titleOfPlanRegulation": {
+        "fin": "Määräys osoittaa, kuinka monta kerrosneliömetriä rakennusalalle sallitusta kerrosalasta saadaan käyttää asumista varten"
+      },
+      "planRegulations": [
         {
           "planRegulationKey": "9010a0b7-d20e-42ca-9877-0dcfe49fbb7b",
           "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
@@ -386,11 +394,15 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/sallittuKerr
     },
     {
       "planObjectKey": "7daff381-83f8-40d6-879a-7d63353621c9",
-      "planRegulationGroupKey": "a32c320d-6780-4002-b46d-456b1d61623b"
+      "planRegulationGroupKey": "6993467f-3035-476f-a143-c90deee680bd"
+    },
+    {
+      "planObjectKey": "7daff381-83f8-40d6-879a-7d63353621c9",
+      "planRegulationGroupKey": "36b21587-a476-486e-8501-5ac70fea31ea"
     },
     {
       "planObjectKey": "ac314efb-3298-4e26-8358-8a17a16eb0c8",
-      "planRegulationGroupKey": "6993467f-3035-476f-a143-c90deee680bd"
+      "planRegulationGroupKey": "a32c320d-6780-4002-b46d-456b1d61623b"
     }
   ]
 }
