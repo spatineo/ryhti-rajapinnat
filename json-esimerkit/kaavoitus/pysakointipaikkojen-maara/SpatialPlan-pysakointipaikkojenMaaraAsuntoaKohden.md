@@ -132,7 +132,15 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/pysakointipa
             "dataType": "PositiveDecimal",
             "number": 0.4
           }
-        },
+        }
+      ]
+    },
+    {
+      "planRegulationGroupKey": "9bd9cbd0-3402-4a87-bf81-e07077a389c5",
+      "titleOfPlanRegulation": {
+        "fin": "Määräys osoittaa, kuinka monta kerrosalaneliömetriä kohti on rakennettava yksi polkupyöräpaikka"
+      },
+      "planRegulations": [
         {
           "planRegulationKey": "223fdc50-bdbe-4ecf-b313-eb77e8dd6c08",
           "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
@@ -153,6 +161,10 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/pysakointipa
     {
       "planObjectKey": "c4667f08-4a3b-4113-ace8-cce749facbba",
       "planRegulationGroupKey": "b3bcc433-f424-414d-b3f2-cee006f50823"
+    },
+    {
+      "planObjectKey": "c4667f08-4a3b-4113-ace8-cce749facbba",
+      "planRegulationGroupKey": "9bd9cbd0-3402-4a87-bf81-e07077a389c5"
     }
   ]
 }
