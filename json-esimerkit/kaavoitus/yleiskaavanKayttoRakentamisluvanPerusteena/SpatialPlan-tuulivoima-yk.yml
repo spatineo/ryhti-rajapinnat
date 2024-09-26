@@ -97,7 +97,7 @@ planObjects:
 planRegulationGroups:
   - planRegulationGroupKey: 783f457a-a8cc-4bb6-a491-a15dac0c999f
     titleOfPlanRegulation:
-      fin: Metsätalousvaltaisen alue
+      fin: Metsätalousvaltainen alue
     planRegulations:
       - planRegulationKey: 55e1f047-8c55-432a-9086-1642de870410
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
