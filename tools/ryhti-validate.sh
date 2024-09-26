@@ -98,7 +98,7 @@ fi
 printf "%s\n" "$JSON" | jq empty
 if [[ $? -eq 0 ]]; then
     printf "Validating .."
-    RES=$(printf "$JSON" | curl -s -X 'POST' "$SERVICE_URL?planType=$PLAN_TYPE&administrativeAreaIdentifiers=$AREA_IDS" -H 'accept: */*' -H "Ocp-Apim-Subscription-Key: $API_KEY" -H 'Content-Type: application/json' --data @-)
+    RES=$(printf "%s" "$JSON" | curl -s -X 'POST' "$SERVICE_URL?planType=$PLAN_TYPE&administrativeAreaIdentifiers=$AREA_IDS" -H 'accept: */*' -H "Ocp-Apim-Subscription-Key: $API_KEY" -H 'Content-Type: application/json' --data @-)
     if [[ "$RES" == "" ]]; then
         echo "OK!"
     else
