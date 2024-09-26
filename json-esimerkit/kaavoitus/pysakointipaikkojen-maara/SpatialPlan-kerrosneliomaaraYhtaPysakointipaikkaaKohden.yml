@@ -134,6 +134,10 @@ planRegulationGroups:
         value:
           dataType: PositiveNumeric
           number: 41
+  - planRegulationGroupKey: 42be1d81-5457-4fe4-8ab8-61e6a5971acd
+    titleOfPlanRegulation:
+      fin: Määräys osoittaa, kuinka monta kerrosalaneliömetriä kohti on rakennettava yksi polkupyöräpaikka
+    planRegulations:
       - planRegulationKey: 45bc3a2e-642b-42f3-83f9-30cbdf00ede2
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
         type: >-
@@ -153,6 +157,10 @@ planRegulationGroupRelations:
     # Neliöiden määrä per autopaikka -> AK-alueen kaavakohde:
   - planObjectKey: c4667f08-4a3b-4113-ace8-cce749facbba
     planRegulationGroupKey: b3bcc433-f424-414d-b3f2-cee006f50823
+    #
+    # Neliöiden määrä per polkupyöräpaikka -> AK-alueen kaavakohde:
+  - planObjectKey: c4667f08-4a3b-4113-ace8-cce749facbba
+    planRegulationGroupKey: 42be1d81-5457-4fe4-8ab8-61e6a5971acd
     #
     # Rakennusoikeus kerrosalaneliömetreinä -> AK-alueen kaavakohde:
   - planObjectKey: c4667f08-4a3b-4113-ace8-cce749facbba
