@@ -184,7 +184,7 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/yleiskaavanK
     {
       "planRegulationGroupKey": "783f457a-a8cc-4bb6-a491-a15dac0c999f",
       "titleOfPlanRegulation": {
-        "fin": "Metsätalousvaltaisen alue"
+        "fin": "Metsätalousvaltainen alue"
       },
       "planRegulations": [
         {
