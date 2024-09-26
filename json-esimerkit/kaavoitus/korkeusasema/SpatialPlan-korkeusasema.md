@@ -192,7 +192,7 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/korkeusasema
     {
       "planRegulationGroupKey": "b4e8033a-20dc-4eea-90f5-b0f7fa3f985d",
       "titleOfPlanRegulation": {
-        "fin": "Rakennusten korkeusasema"
+        "fin": "Rakennusten ja laitteiden ylin korkeusasema"
       },
       "planRegulations": [
         {
@@ -204,7 +204,15 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/korkeusasema
             "number": 66.3,
             "unitOfMeasure": "m"
           }
-        },
+        }
+      ]
+    },
+    {
+      "planRegulationGroupKey": "09937017-0ccf-4209-b076-4c8b140edb31",
+      "titleOfPlanRegulation": {
+        "fin": "Rakennusten ja laitteiden alin korkeusasema"
+      },
+      "planRegulations": [
         {
           "planRegulationKey": "fece18b9-74d0-4067-a48e-b30577300e42",
           "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
@@ -230,6 +238,10 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/korkeusasema
     {
       "planObjectKey": "ac314efb-3298-4e26-8358-8a17a16eb0c8",
       "planRegulationGroupKey": "b4e8033a-20dc-4eea-90f5-b0f7fa3f985d"
+    },
+    {
+      "planObjectKey": "ac314efb-3298-4e26-8358-8a17a16eb0c8",
+      "planRegulationGroupKey": "09937017-0ccf-4209-b076-4c8b140edb31"
     }
   ]
 }
