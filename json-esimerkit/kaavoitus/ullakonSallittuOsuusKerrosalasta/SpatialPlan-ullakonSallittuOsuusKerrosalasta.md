@@ -204,7 +204,15 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/ullakonSalli
             "number": 2300,
             "unitOfMeasure": "k-m2"
           }
-        },
+        }
+      ]
+    },
+    {
+      "planRegulationGroupKey": "1d368692-90d8-4f0a-b16e-817833e6d1f3",
+      "titleOfPlanRegulation": {
+        "fin": "Ullakon osuus sallitusta kerrosalasta"
+      },
+      "planRegulations": [
         {
           "planRegulationKey": "54345a59-b47a-4c61-a3b7-53f9326a407a",
           "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
@@ -230,6 +238,10 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/ullakonSalli
     {
       "planObjectKey": "ac314efb-3298-4e26-8358-8a17a16eb0c8",
       "planRegulationGroupKey": "8bad201c-2969-4717-b8b5-ff40d4be0855"
+    },
+    {
+      "planObjectKey": "ac314efb-3298-4e26-8358-8a17a16eb0c8",
+      "planRegulationGroupKey": "1d368692-90d8-4f0a-b16e-817833e6d1f3"
     }
   ]
 }
