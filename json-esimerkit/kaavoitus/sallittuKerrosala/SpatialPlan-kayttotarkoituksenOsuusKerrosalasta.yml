@@ -186,11 +186,11 @@ planRegulationGroups:
           dataType: PositiveNumeric
           number: 12
 planRegulationGroupRelations:
-    # Asuin- ja liikerakennusten alue -> AL-alueen kaavakohde:
+    # Asuin- ja liikerakennusten alue (osuudet 6000/4000 k-m2) -> AL-alueen kaavakohde:
   - planObjectKey: c4667f08-4a3b-4113-ace8-cce749facbba
     planRegulationGroupKey: 783f457a-a8cc-4bb6-a491-a15dac0c999f
     #
-    # Rakennusoikeus kerrosalaneliömetreinä -> AL-alueen kaavakohde:
+    # Rakennusoikeus kerrosalaneliömetreinä (10000 k-m2) -> AL-alueen kaavakohde:
   - planObjectKey: c4667f08-4a3b-4113-ace8-cce749facbba
     planRegulationGroupKey: 8bad201c-2969-4717-b8b5-ff40d4be0855
     #

@@ -228,11 +228,11 @@ planRegulationGroupRelations:
   - planObjectKey: ac314efb-3298-4e26-8358-8a17a16eb0c8
     planRegulationGroupKey: 66a85df7-f315-4462-bb7e-0624dcdbfdfb
     #
-    # Rakennusoikeus kerrosalaneliömetreinä -> Rakennusalan kaavakohde (X):
+    # Rakennusoikeus kerrosalaneliömetreinä (4000 k-m2) -> Rakennusalan kaavakohde (X):
   - planObjectKey: ac314efb-3298-4e26-8358-8a17a16eb0c8
     planRegulationGroupKey: 6993467f-3035-476f-a143-c90deee680bd
     #
-    # Liikerakentamiseen kohdistettu rakennusoikeuden osuus kerrosalaneliömetreinä -> Rakennusalan kaavakohde (X):
+    # Liikerakentamiseen kohdistettu rakennusoikeuden osuus kerrosalaneliömetreinä (2000 k-m2) -> Rakennusalan kaavakohde (X):
   - planObjectKey: ac314efb-3298-4e26-8358-8a17a16eb0c8
     planRegulationGroupKey: 9dd197cc-bed9-4a41-95a8-8057bfe37a5d
     #
@@ -244,11 +244,11 @@ planRegulationGroupRelations:
   - planObjectKey: 7daff381-83f8-40d6-879a-7d63353621c9
     planRegulationGroupKey: c5e647b4-628e-448e-8c3f-a47a000347d1
     #
-    # Rakennusoikeus kerrosalaneliömetreinä -> Rakennusalan kaavakohde (XII):
+    # Rakennusoikeus kerrosalaneliömetreinä (6000 k-m2) -> Rakennusalan kaavakohde (XII):
   - planObjectKey: 7daff381-83f8-40d6-879a-7d63353621c9
     planRegulationGroupKey: a32c320d-6780-4002-b46d-456b1d61623b
     #
-    # Asumiseen kohdistettu rakennusoikeuden osuus kerrosalaneliömetreinä -> Rakennusalan kaavakohde (XII):
+    # Asumiseen kohdistettu rakennusoikeuden osuus kerrosalaneliömetreinä (3000 k-m2) -> Rakennusalan kaavakohde (XII):
   - planObjectKey: 7daff381-83f8-40d6-879a-7d63353621c9
     planRegulationGroupKey: 73072e98-5e9b-4377-b058-c1644d2a6daa
 
