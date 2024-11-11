@@ -143,7 +143,7 @@ planRegulationGroups:
           number: 220
           unitOfMeasure: m
 planRegulationGroupRelations:
-    # Metsätalousvaltaisen alue -> Metsätalousvaltaisen alueen kaavakohde
+    # Metsätalousvaltainen alue -> Metsätalousvaltaisen alueen kaavakohde:
   - planObjectKey: 7c093fdb-21e3-4ba7-8a20-aa682ce56666
     planRegulationGroupKey: 783f457a-a8cc-4bb6-a491-a15dac0c999f
     # 
