@@ -187,6 +187,14 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/rajoitukset-
           "additionalInformations": [
             {
               "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/osaAlue"
+            },
+            {
+              "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/valiaikainenMaarays",
+              "value": {
+                "dataType": "TimePeriodDateOnly",
+                "begin": "2024-10-08",
+                "end": "2026-10-08"
+              }
             }
           ],
           "value": {
