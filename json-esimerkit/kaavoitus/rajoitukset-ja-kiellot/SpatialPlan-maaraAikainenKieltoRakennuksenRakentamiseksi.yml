@@ -101,11 +101,15 @@ planRegulationGroups:
     planRegulations:
       - planRegulationKey: 51635e36-7531-474c-be5c-0f34912f8419
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
-        # Huom: MRK-määräys on Sanallinen määräys -koodin alla, eli sitä koskevat sanallisen määräyksen vaatimukset
         type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/maaraAikainenKieltoRakennuksenRakentamiseksi
         additionalInformations:
           - type: >-
               http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/osaAlue
+          - type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/valiaikainenMaarays
+            value:
+              dataType: TimePeriodDateOnly
+              begin: 2024-10-08
+              end: 2026-10-08
         value:
           dataType: LocalizedText
            # Esimerkkitesti on huono, perustelu puuttuu:
