@@ -1,0 +1,162 @@
+planKey: 43ec642a-61d7-427d-9aa1-4046ca994b54
+lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+planDescription: >-
+  Asemakaavahanke pohjautuu kunnan ja maanomistajien aloitteeseen.
+
+
+  Kunnan tavoitteena on edistää alueen elinkeinotoimintaa sekä muodostaa
+  alueelle laadukasta ja hyvää ympäristöä.
+geographicalArea:
+  srid: '3880'
+  geometry:
+    type: Polygon
+    coordinates:
+      - - - 2.6478698195865545e+07
+          - 7.029320373236001e+06
+        - - 2.6478900180922363e+07
+          - 7.029299295888912e+06
+        - - 2.6478914527973246e+07
+          - 7.029301791224987e+06
+        - - 2.6478921198992137e+07
+          - 7.029310981202979e+06
+        - - 2.647892314671788e+07
+          - 7.029315554537698e+06
+        - - 2.647892365391457e+07
+          - 7.029250699316586e+06
+        - - 2.6478905293297347e+07
+          - 7.029246627041494e+06
+        - - 2.647872421362842e+07
+          - 7.029173385969489e+06
+        - - 2.6478720231210433e+07
+          - 7.02915363774766e+06
+        - - 2.647870545930431e+07
+          - 7.029194546120958e+06
+        - - 2.6478696277552504e+07
+          - 7.029216865178999e+06
+        - - 2.6478692536345668e+07
+          - 7.029230183243771e+06
+        - - 2.647869363724001e+07
+          - 7.029272853599487e+06
+        - - 2.6478698195865545e+07
+          - 7.029320373236001e+06
+planObjects:
+  - planObjectKey: c4667f08-4a3b-4113-ace8-cce749facbba
+    lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+    name:
+      fin: AK-alueen kaavakohde
+    geometry:
+      srid: '3880'
+      geometry:
+        type: Polygon
+        coordinates:
+          - - - 2.6478698083483465e+07
+              - 7.029319488132592e+06
+            - - 2.647877216803721e+07
+              - 7.029310801072303e+06
+            - - 2.647876765040273e+07
+              - 7.02924447933717e+06
+            - - 2.6478783021451738e+07
+              - 7.029197523053494e+06
+            - - 2.647872408352919e+07
+              - 7.029173636325183e+06
+            - - 2.647871981729015e+07
+              - 7.029155902760199e+06
+            - - 2.6478694066039577e+07
+              - 7.029229197569468e+06
+            - - 2.647869436665275e+07
+              - 7.029274631680553e+06
+            - - 2.6478698083483465e+07
+              - 7.029319488132592e+06
+    undergroundStatus: http://uri.suomi.fi/codelist/rytj/RY_MaanalaisuudenLaji/code/02
+  - planObjectKey: ac314efb-3298-4e26-8358-8a17a16eb0c8
+    lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+    name:
+      fin: Rakennusalan kaavakohde
+    geometry:
+      srid: '3880'
+      geometry:
+        type: Polygon
+        coordinates:
+          - - - 2.647869927312169e+07
+              - 7.02931805547756e+06
+            - - 2.6478727087845568e+07
+              - 7.02931470370065e+06
+            - - 2.6478723101146728e+07
+              - 7.029279055113415e+06
+            - - 2.6478696307531524e+07
+              - 7.029281665667374e+06
+            - - 2.647869927312169e+07
+              - 7.02931805547756e+06
+    undergroundStatus: http://uri.suomi.fi/codelist/rytj/RY_MaanalaisuudenLaji/code/01
+    relatedPlanObjectKeys:
+      - c4667f08-4a3b-4113-ace8-cce749facbba
+  - planObjectKey: c56147e9-31a9-4e9d-b351-15f74798e1bf
+    lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+    name:
+      fin: Rakennusalan sivujen kaavakohde
+    geometry:
+      srid: '3880'
+      geometry:
+        type: LineString
+        coordinates:
+          - - 2.6478696527330946e+07
+            - 7.029281732193429e+06
+          - - 2.647869942984005e+07
+            - 7.02931812101934e+06
+    undergroundStatus: http://uri.suomi.fi/codelist/rytj/RY_MaanalaisuudenLaji/code/01
+    relatedPlanObjectKeys:
+      - ac314efb-3298-4e26-8358-8a17a16eb0c8
+planRegulationGroups:
+  - planRegulationGroupKey: 783f457a-a8cc-4bb6-a491-a15dac0c999f
+    titleOfPlanRegulation:
+      fin: Kerrostalovaltainen asuntoalue
+    planRegulations:
+      - planRegulationKey: 55e1f047-8c55-432a-9086-1642de870410
+        lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+        type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/asuinkerrostaloalue
+        additionalInformations:
+          - type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/paakayttotarkoitus
+  - planRegulationGroupKey: d3ba28c8-4bfa-4e9b-87c7-5208d9a77b9e
+    titleOfPlanRegulation:
+      fin: Rakennusala
+    planRegulations:
+      - planRegulationKey: 51635e36-7531-474c-be5c-0f34912f8419
+        lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+        type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/rakennusala
+        additionalInformations:
+          - type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/osaAlue
+  - planRegulationGroupKey: 8bad201c-2969-4717-b8b5-ff40d4be0855
+    titleOfPlanRegulation:
+      fin: Määräys osoittaa, että alueelle sijoitettavien rakenteiden ääneneristävyyden tulee olla vähintään 36dB
+    planRegulations:
+      - planRegulationKey: 425cacfe-c217-4095-a362-6fd9a98aac6a
+        lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+        type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/aaneneristavyys
+        value:
+          dataType: PositiveDecimal
+          number: 36.0
+          unitOfMeasure: dB
+  - planRegulationGroupKey: b3bcc433-f424-414d-b3f2-cee006f50823
+    titleOfPlanRegulation:
+      fin: Rakennusalan sivu, jota koskee tarkempi määräys
+    planRegulations:
+      - planRegulationKey: 15aea3bc-0653-4f91-8815-cb2e4b8813d4
+        lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+        type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/rakennusalanSivuJotaKoskeeTarkempiMaarays
+planRegulationGroupRelations:
+    # Kerrostalovaltainen asuntoalue -> AK-alueen kaavakohde:
+  - planObjectKey: c4667f08-4a3b-4113-ace8-cce749facbba
+    planRegulationGroupKey: 783f457a-a8cc-4bb6-a491-a15dac0c999f
+    #
+    # Rakennusala -> Rakennusalan kaavakohde:
+  - planObjectKey: ac314efb-3298-4e26-8358-8a17a16eb0c8
+    planRegulationGroupKey: d3ba28c8-4bfa-4e9b-87c7-5208d9a77b9e
+    #
+    # Rakennusalan sivu,jota koskee tarkempi määräys -> Rakennusalan sivun kaavakohde:
+  - planObjectKey: c56147e9-31a9-4e9d-b351-15f74798e1bf
+    planRegulationGroupKey: b3bcc433-f424-414d-b3f2-cee006f50823
+    #
+    # Ääneneristävyys -> Rakennusalan sivun kaavakohde:
+  - planObjectKey: c56147e9-31a9-4e9d-b351-15f74798e1bf
+    planRegulationGroupKey: 8bad201c-2969-4717-b8b5-ff40d4be0855
+
