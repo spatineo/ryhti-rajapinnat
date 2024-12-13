@@ -1,0 +1,160 @@
+planKey: 43ec642a-61d7-427d-9aa1-4046ca994b54
+lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+planDescription: >-
+  Asemakaavahanke pohjautuu kunnan ja maanomistajien aloitteeseen.
+
+
+  Kunnan tavoitteena on edistää alueen elinkeinotoimintaa sekä muodostaa
+  alueelle laadukasta ja hyvää ympäristöä.
+geographicalArea:
+  srid: '3880'
+  geometry:
+    type: Polygon
+    coordinates:
+      - - - 2.6478696267839525e+07
+          - 7.029407680255116e+06
+        - - 2.6478918351372994e+07
+          - 7.029393320023362e+06
+        - - 2.6478912750914045e+07
+          - 7.029330431865582e+06
+        - - 2.647891045876284e+07
+          - 7.0293191522938935e+06
+        - - 2.647892314671788e+07
+          - 7.029315554537698e+06
+        - - 2.647892365391457e+07
+          - 7.029250699316586e+06
+        - - 2.6478905293297347e+07
+          - 7.029246627041494e+06
+        - - 2.647872421362842e+07
+          - 7.029173385969489e+06
+        - - 2.6478720231210433e+07
+          - 7.02915363774766e+06
+        - - 2.647870545930431e+07
+          - 7.029194546120958e+06
+        - - 2.6478696277552504e+07
+          - 7.029216865178999e+06
+        - - 2.6478692536345668e+07
+          - 7.029230183243771e+06
+        - - 2.647869363724001e+07
+          - 7.029272853599487e+06
+        - - 2.6478700593202904e+07
+          - 7.029341381884276e+06
+        - - 2.6478696267839525e+07
+          - 7.029407680255116e+06
+planObjects:
+  - planObjectKey: 7c093fdb-21e3-4ba7-8a20-aa682ce56666
+    lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+    name:
+      fin: Kortteli 1
+    undergroundStatus: http://uri.suomi.fi/codelist/rytj/RY_MaanalaisuudenLaji/code/02
+    geometry:
+      srid: '3880'
+      geometry:
+        type: Polygon
+        coordinates:
+          - - - 2.6478702601085197e+07
+              - 7.029331334927464e+06
+            - - 2.647869686440637e+07
+              - 7.029408992199466e+06
+            - - 2.6478916056107864e+07
+              - 7.029386633908946e+06
+            - - 2.6478906826859508e+07
+              - 7.029310251410141e+06
+            - - 2.6478702601085197e+07
+              - 7.029331334927464e+06
+  - planObjectKey: 82244639-ca9a-448b-9a25-94b777d63b5b
+    lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+    name:
+      fin: Kortteli 2
+    undergroundStatus: http://uri.suomi.fi/codelist/rytj/RY_MaanalaisuudenLaji/code/02
+    geometry:
+      srid: '3880'
+      geometry:
+        type: Polygon
+        coordinates:
+          - - - 2.6478810449819166e+07
+              - 7.029304702560849e+06
+            - - 2.6478907375991188e+07
+              - 7.02929702793863e+06
+            - - 2.647890720568693e+07
+              - 7.029246428154689e+06
+            - - 2.647878709640908e+07
+              - 7.029228373926824e+06
+            - - 2.647878030312601e+07
+              - 7.029277082492661e+06
+            - - 2.647878144762818e+07
+              - 7.029309186328705e+06
+            - - 2.6478810449819166e+07
+              - 7.029304702560849e+06
+  - planObjectKey: 13acec57-33ee-4902-8d41-3e23977e2139
+    lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+    name:
+      fin: Kortteli 3
+    undergroundStatus: http://uri.suomi.fi/codelist/rytj/RY_MaanalaisuudenLaji/code/02
+    geometry:
+      srid: '3880'
+      geometry:
+        type: Polygon
+        coordinates:
+          - - - 2.6478698759181544e+07
+              - 7.029318317182647e+06
+            - - 2.6478772661278088e+07
+              - 7.029309871947982e+06
+            - - 2.6478767656217106e+07
+              - 7.029243976462133e+06
+            - - 2.6478783205901954e+07
+              - 7.029196501482918e+06
+            - - 2.647872514942956e+07
+              - 7.029173656476418e+06
+            - - 2.647871994405306e+07
+              - 7.029155749713235e+06
+            - - 2.6478702175324805e+07
+              - 7.0292048354993705e+06
+            - - 2.647869354801992e+07
+              - 7.029230479359063e+06
+            - - 2.6478694448675185e+07
+              - 7.029278211015239e+06
+            - - 2.6478698759181544e+07
+              - 7.029318317182647e+06
+planRegulationGroups:
+  - planRegulationGroupKey: b4e8033a-20dc-4eea-90f5-b0f7fa3f985d
+    titleOfPlanRegulation:
+      fin: Asuinkerrostalojen alue
+    letterIdentifier: AK-1
+    planRegulations:
+      - planRegulationKey: fece18b9-74d0-4067-a48e-b30577300e42
+        lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+        type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/asuinkerrostaloalue
+        additionalInformations:
+          - type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/paakayttotarkoitus
+          - type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/sitovaTonttijakoLaadittava
+  - planRegulationGroupKey: ae025299-a98b-4cf1-a80f-6ae1e8eac99a
+    titleOfPlanRegulation:
+      fin: Tehokkuusluku eli kerrosalan suhde tontin/rakennuspaikan pinta-alaan
+    planRegulations:
+      - planRegulationKey: 9e266e64-ded1-4c09-ba6d-1a6c316d7cca
+        lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+        type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/tehokkuusluku
+        value:
+          dataType: PositiveDecimal
+          number: 0.30
+          unitOfMeasure: k-m2/m2
+planRegulationGroupRelations:
+    # AK-1 -> Kortteli 1:
+  - planObjectKey: 7c093fdb-21e3-4ba7-8a20-aa682ce56666
+    planRegulationGroupKey: b4e8033a-20dc-4eea-90f5-b0f7fa3f985d
+    # AK-1 -> Kortteli 2:
+  - planObjectKey: 82244639-ca9a-448b-9a25-94b777d63b5b
+    planRegulationGroupKey: b4e8033a-20dc-4eea-90f5-b0f7fa3f985d
+    # AK-1 -> Kortteli 3:
+  - planObjectKey: 13acec57-33ee-4902-8d41-3e23977e2139
+    planRegulationGroupKey: b4e8033a-20dc-4eea-90f5-b0f7fa3f985d
+    # Tehokkuusluku 0.3 -> Kortteli 1:
+  - planObjectKey: 7c093fdb-21e3-4ba7-8a20-aa682ce56666
+    planRegulationGroupKey: ae025299-a98b-4cf1-a80f-6ae1e8eac99a
+    # # Tehokkuusluku 0.3 -> Kortteli 2:
+  - planObjectKey: 82244639-ca9a-448b-9a25-94b777d63b5b
+    planRegulationGroupKey: ae025299-a98b-4cf1-a80f-6ae1e8eac99a
+    # # Tehokkuusluku 0.3 -> Kortteli 3:
+  - planObjectKey: 13acec57-33ee-4902-8d41-3e23977e2139
+    planRegulationGroupKey: ae025299-a98b-4cf1-a80f-6ae1e8eac99a
