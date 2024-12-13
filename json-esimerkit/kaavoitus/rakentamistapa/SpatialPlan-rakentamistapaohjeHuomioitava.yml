@@ -1,0 +1,122 @@
+planKey: 43ec642a-61d7-427d-9aa1-4046ca994b54
+lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+planDescription: >-
+  Asemakaavahanke pohjautuu kunnan ja maanomistajien aloitteeseen.
+
+
+  Kunnan tavoitteena on edistää alueen elinkeinotoimintaa sekä muodostaa
+  alueelle laadukasta ja hyvää ympäristöä.
+geographicalArea:
+  srid: '3880'
+  geometry:
+    type: Polygon
+    coordinates:
+      - - - 2.6478696267839525e+07
+          - 7.029407680255116e+06
+        - - 2.6478918351372994e+07
+          - 7.029393320023362e+06
+        - - 2.6478912750914045e+07
+          - 7.029330431865582e+06
+        - - 2.647891045876284e+07
+          - 7.0293191522938935e+06
+        - - 2.647892314671788e+07
+          - 7.029315554537698e+06
+        - - 2.647892365391457e+07
+          - 7.029250699316586e+06
+        - - 2.6478905293297347e+07
+          - 7.029246627041494e+06
+        - - 2.647872421362842e+07
+          - 7.029173385969489e+06
+        - - 2.6478720231210433e+07
+          - 7.02915363774766e+06
+        - - 2.647870545930431e+07
+          - 7.029194546120958e+06
+        - - 2.6478696277552504e+07
+          - 7.029216865178999e+06
+        - - 2.6478692536345668e+07
+          - 7.029230183243771e+06
+        - - 2.647869363724001e+07
+          - 7.029272853599487e+06
+        - - 2.6478700593202904e+07
+          - 7.029341381884276e+06
+        - - 2.6478696267839525e+07
+          - 7.029407680255116e+06
+planAnnexes:
+  - attachmentDocumentKey: 23fc6f75-a251-410a-b433-bba81114a03b
+    documentIdentifier: document-456568
+    name:
+      fin: RAKENTAMISTAPAOHJE - Asemakaava ja asemakaavan muutos nro 12234 PaikkaKunta
+    # Koodi 1: Ei sisällä henkilötietoja:
+    personalDataContent: http://uri.suomi.fi/codelist/rytj/henkilotietosisalto/code/1
+    # Koodi 1: Julkinen asiakirja:
+    categoryOfPublicity: http://uri.suomi.fi/codelist/rytj/julkisuus/code/1
+    # Saavutettava?
+    accessibility: true
+    # Koodi 1: Säilytetään pysyvästi:
+    retentionTime: http://uri.suomi.fi/codelist/rytj/sailytysaika/code/01
+    languages:
+      - http://uri.suomi.fi/codelist/rytj/ryhtikielet/code/fi
+    fileKey: a25ca751-c5a2-41a7-b013-959775f5c47d
+    descriptors:
+      - descriptorIdentifier: http://www.yso.fi/onto/yso/p15728
+        descriptor: julkisivut
+      - descriptorIdentifier: http://www.yso.fi/onto/koko/p85761
+        descriptor: piha-alueet
+      - descriptorIdentifier: http://www.yso.fi/onto/koko/p8076
+        descriptor: pysäköintialueet
+    documentDate: 2024-01-01
+    # 21 - Suunnitteluohje
+    typeOfAttachment: http://uri.suomi.fi/codelist/rytj/RY_AsiakirjanLaji_YKAK/code/21
+generalRegulationGroups:
+  - generalRegulationGroupKey: b4e8033a-20dc-4eea-90f5-b0f7fa3f985d
+    titleOfPlanRegulation:
+      fin: Rakentamistapaohjetta noudatettava
+    planRegulations:
+      - planRegulationKey: 594299e0-d7ee-4429-889a-4004bcef7450
+        lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+        type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/sanallinenMaarays
+        additionalInformations:
+          - type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/rakentamistapaohjeHuomioitava
+        value:
+          dataType: LocalizedText
+          text:
+            fin: >-
+              Kaava-alueen uudisrakentaminen on suunniteltava kaavan liittenä olevan rakentamistapaohjeen mukaisesti
+        verbalRegulations:
+          - http://uri.suomi.fi/codelist/rytj/RY_Sanallisen_Kaavamaarayksen_Laji/code/suunnittelumaarays
+planObjects:
+  - planObjectKey: 7c093fdb-21e3-4ba7-8a20-aa682ce56666
+    lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+    name:
+      fin: Kortteli 1
+    undergroundStatus: http://uri.suomi.fi/codelist/rytj/RY_MaanalaisuudenLaji/code/02
+    geometry:
+      srid: '3880'
+      geometry:
+        type: Polygon
+        coordinates:
+          - - - 2.6478702601085197e+07
+              - 7.029331334927464e+06
+            - - 2.647869686440637e+07
+              - 7.029408992199466e+06
+            - - 2.6478916056107864e+07
+              - 7.029386633908946e+06
+            - - 2.6478906826859508e+07
+              - 7.029310251410141e+06
+            - - 2.6478702601085197e+07
+              - 7.029331334927464e+06
+planRegulationGroups:
+  - planRegulationGroupKey: b4e8033a-20dc-4eea-90f5-b0f7fa3f985d
+    titleOfPlanRegulation:
+      fin: Erillispientalojen alue
+    letterIdentifier: A0-1
+    planRegulations:
+      - planRegulationKey: fece18b9-74d0-4067-a48e-b30577300e42
+        lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+        type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/erillistenAsuinpientalojenAlue
+        additionalInformations:
+          - type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/paakayttotarkoitus
+planRegulationGroupRelations:
+    # AK-1 -> Kortteli 1:
+  - planObjectKey: 7c093fdb-21e3-4ba7-8a20-aa682ce56666
+    planRegulationGroupKey: b4e8033a-20dc-4eea-90f5-b0f7fa3f985d
