@@ -113,7 +113,7 @@ planObjects:
 planRegulationGroups:
   - planRegulationGroupKey: 783f457a-a8cc-4bb6-a491-a15dac0c999f
     titleOfPlanRegulation:
-      fin: Asuin- ja liikerakennusten alue
+      fin: Asuin-, liike- toimistorakennusten alue
     planRegulations:
       - planRegulationKey: 55e1f047-8c55-432a-9086-1642de870410
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
@@ -126,6 +126,13 @@ planRegulationGroups:
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
         type: >-
           http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/liikerakennustenAlue
+        additionalInformations:
+          - type: >-
+              http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/paakayttotarkoitus
+      - planRegulationKey: 237e6f3c-bde5-455a-9893-a8b92e768afb
+        lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+        type: >-
+          http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/toimistorakennustenAlue
         additionalInformations:
           - type: >-
               http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/paakayttotarkoitus
@@ -187,12 +194,12 @@ planRegulationGroups:
           unitOfMeasure: k-m2
   - planRegulationGroupKey: 73072e98-5e9b-4377-b058-c1644d2a6daa
     titleOfPlanRegulation:
-      fin: Määräys osoittaa, kuinka monta neliömetriä rakennusalalle sallitusta kerrostilavuudesta saadaan käyttää asuinhuoneistoja varten
+      fin: Määräys osoittaa, kuinka monta neliömetriä rakennusalalle sallitusta kerrostilavuudesta saadaan käyttää liiketilaa varten
     planRegulations:
       - planRegulationKey: 6a001a27-d308-4355-89f3-9689b29cde62
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
         type: >-
-          http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/asumisenAlue
+          http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/liikerakennustenAlue
         additionalInformations:
           - type: >-
               http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/kayttotarkoituksenOsuusKerrosalastaK-m2
@@ -202,12 +209,12 @@ planRegulationGroups:
               unitOfMeasure: k-m2
   - planRegulationGroupKey: 9dd197cc-bed9-4a41-95a8-8057bfe37a5d
     titleOfPlanRegulation:
-      fin: Määräys osoittaa, kuinka monta neliömetriä rakennusalalle sallitusta kerrostilavuudesta saadaan käyttää liikerakentamista varten
+      fin: Määräys osoittaa, kuinka monta neliömetriä rakennusalalle sallitusta kerrostilavuudesta saadaan käyttää asumista varten
     planRegulations:
       - planRegulationKey: b6a816fe-88bd-446a-89c4-b3312f954cef
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
         type: >-
-          http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/liikerakennustenAlue
+          http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/asumisenAlue
         additionalInformations:
           - type: >-
               http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/kayttotarkoituksenOsuusKerrosalastaK-m2
@@ -232,7 +239,7 @@ planRegulationGroupRelations:
   - planObjectKey: ac314efb-3298-4e26-8358-8a17a16eb0c8
     planRegulationGroupKey: 6993467f-3035-476f-a143-c90deee680bd
     #
-    # Liikerakentamiseen kohdistettu rakennusoikeuden osuus kerrosalaneliömetreinä (2000 k-m2) -> Rakennusalan kaavakohde (X):
+    # Asumiseen kohdistettu rakennusoikeuden osuus kerrosalaneliömetreinä (2000 k-m2) -> Rakennusalan kaavakohde (X):
   - planObjectKey: ac314efb-3298-4e26-8358-8a17a16eb0c8
     planRegulationGroupKey: 9dd197cc-bed9-4a41-95a8-8057bfe37a5d
     #
@@ -248,7 +255,7 @@ planRegulationGroupRelations:
   - planObjectKey: 7daff381-83f8-40d6-879a-7d63353621c9
     planRegulationGroupKey: a32c320d-6780-4002-b46d-456b1d61623b
     #
-    # Asumiseen kohdistettu rakennusoikeuden osuus kerrosalaneliömetreinä (3000 k-m2) -> Rakennusalan kaavakohde (XII):
+    # Liikerakentamiseen kohdistettu rakennusoikeuden osuus kerrosalaneliömetreinä (3000 k-m2) -> Rakennusalan kaavakohde (XII):
   - planObjectKey: 7daff381-83f8-40d6-879a-7d63353621c9
     planRegulationGroupKey: 73072e98-5e9b-4377-b058-c1644d2a6daa
 

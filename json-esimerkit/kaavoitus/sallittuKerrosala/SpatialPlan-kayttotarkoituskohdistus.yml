@@ -113,7 +113,7 @@ planObjects:
 planRegulationGroups:
   - planRegulationGroupKey: 783f457a-a8cc-4bb6-a491-a15dac0c999f
     titleOfPlanRegulation:
-      fin: Asuin- ja liikerakennusten alue
+      fin: Asuin-, liike- ja toimistorakennusten alue
     planRegulations:
       - planRegulationKey: 55e1f047-8c55-432a-9086-1642de870410
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
@@ -126,6 +126,13 @@ planRegulationGroups:
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
         type: >-
           http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/liikerakennustenAlue
+        additionalInformations:
+          - type: >-
+              http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/paakayttotarkoitus
+      - planRegulationKey: 237e6f3c-bde5-455a-9893-a8b92e768afb
+        lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+        type: >-
+          http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/toimistorakennustenAlue
         additionalInformations:
           - type: >-
               http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/paakayttotarkoitus

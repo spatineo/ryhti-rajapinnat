@@ -113,7 +113,7 @@ planObjects:
 planRegulationGroups:
   - planRegulationGroupKey: 783f457a-a8cc-4bb6-a491-a15dac0c999f
     titleOfPlanRegulation:
-      fin: Asuin- ja liikerakennusten alue
+      fin: Asuin-, liike- ja toimistorakennusten alue
     planRegulations:
       - planRegulationKey: 55e1f047-8c55-432a-9086-1642de870410
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
@@ -126,6 +126,13 @@ planRegulationGroups:
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
         type: >-
           http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/liikerakennustenAlue
+        additionalInformations:
+          - type: >-
+              http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/paakayttotarkoitus
+      - planRegulationKey: 237e6f3c-bde5-455a-9893-a8b92e768afb
+        lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+        type: >-
+          http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/toimistorakennustenAlue
         additionalInformations:
           - type: >-
               http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/paakayttotarkoitus
@@ -183,29 +190,9 @@ planRegulationGroups:
           number: 12
   - planRegulationGroupKey: 6993467f-3035-476f-a143-c90deee680bd
     titleOfPlanRegulation:
-      fin: Määräys osoittaa, kuinka monta kerrosneliömetriä rakennusalalle sallitusta kerrosalasta saadaan käyttää liiketilaa varten
-    planRegulations:
-      - planRegulationKey: 6a6060c9-f6f3-404a-a925-a5285d135dd4
-        lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
-        type: >-
-          http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/sallittuKerrosala
-        additionalInformations:
-          - type: >-
-              http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/kayttotarkoituskohdistus
-            value:
-              dataType: Code
-              code: >-
-                http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/liikerakennustenAlue
-              codeList: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji
-        value:
-          dataType: PositiveNumeric
-          number: 2500
-          unitOfMeasure: k-m2
-  - planRegulationGroupKey: 36b21587-a476-486e-8501-5ac70fea31ea
-    titleOfPlanRegulation:
       fin: Määräys osoittaa, kuinka monta kerrosneliömetriä rakennusalalle sallitusta kerrosalasta saadaan käyttää asumista varten
     planRegulations:
-      - planRegulationKey: 9010a0b7-d20e-42ca-9877-0dcfe49fbb7b
+      - planRegulationKey: 6a6060c9-f6f3-404a-a925-a5285d135dd4
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
         type: >-
           http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/sallittuKerrosala
@@ -219,10 +206,30 @@ planRegulationGroups:
               codeList: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji
         value:
           dataType: PositiveNumeric
+          number: 2500
+          unitOfMeasure: k-m2
+  - planRegulationGroupKey: 36b21587-a476-486e-8501-5ac70fea31ea
+    titleOfPlanRegulation:
+      fin: Määräys osoittaa, kuinka monta kerrosneliömetriä rakennusalalle sallitusta kerrosalasta saadaan käyttää liikerakentamista varten
+    planRegulations:
+      - planRegulationKey: 9010a0b7-d20e-42ca-9877-0dcfe49fbb7b
+        lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
+        type: >-
+          http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/sallittuKerrosala
+        additionalInformations:
+          - type: >-
+              http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/kayttotarkoituskohdistus
+            value:
+              dataType: Code
+              code: >-
+                http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/liikerakennustenAlue
+              codeList: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji
+        value:
+          dataType: PositiveNumeric
           number: 1500
           unitOfMeasure: k-m2
 planRegulationGroupRelations:
-    # Asuin- ja liikerakennusten alue -> AL-alueen kaavakohde:
+    # Asuin-, liike- ja toimistorakennusten alue -> AL-alueen kaavakohde:
   - planObjectKey: c4667f08-4a3b-4113-ace8-cce749facbba
     planRegulationGroupKey: 783f457a-a8cc-4bb6-a491-a15dac0c999f
     #
@@ -242,11 +249,11 @@ planRegulationGroupRelations:
   - planObjectKey: 7daff381-83f8-40d6-879a-7d63353621c9
     planRegulationGroupKey: c5e647b4-628e-448e-8c3f-a47a000347d1
     #
-    # Liiketilalle varattu rakennusoikeus kerrosalaneliömetreinä (2500 k-m2) -> Rakennusalan kaavakohde (XII):
+    # Asumiselle varattu rakennusoikeus kerrosalaneliömetreinä (2500 k-m2) -> Rakennusalan kaavakohde (XII):
   - planObjectKey: 7daff381-83f8-40d6-879a-7d63353621c9
     planRegulationGroupKey: 6993467f-3035-476f-a143-c90deee680bd
     #
-    # Asumiselle varattu rakennusoikeus kerrosalaneliömetreinä (1500 k-m2) -> Rakennusalan kaavakohde (XII):
+    # Liiketilalle varattu rakennusoikeus kerrosalaneliömetreinä (1500 k-m2) -> Rakennusalan kaavakohde (XII):
   - planObjectKey: 7daff381-83f8-40d6-879a-7d63353621c9
     planRegulationGroupKey: 36b21587-a476-486e-8501-5ac70fea31ea
     #
