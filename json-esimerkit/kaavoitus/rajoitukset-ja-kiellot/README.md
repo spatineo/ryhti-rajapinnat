@@ -1,6 +1,6 @@
-# Rajoitkset ja kiellot
+# Rajoitukset ja kiellot
 
-Esimerkkejä sanallisiata määräyksistä, joilla asetetaan rakentamis- ja toimenpiderajoituksia ja -kieltoja.
+Esimerkkejä määräyksistä, joilla asetetaan rakentamis- ja toimenpiderajoituksia ja -kieltoja.
 
 ## SpatialPlan-maaraAikainenKieltoRakennuksenRakentamiseksi
 
