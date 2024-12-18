@@ -209,7 +209,7 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/sallittuKerr
     {
       "planRegulationGroupKey": "783f457a-a8cc-4bb6-a491-a15dac0c999f",
       "titleOfPlanRegulation": {
-        "fin": "Asuin- ja liikerakennusten alue"
+        "fin": "Asuin- ja liikerakennusten ja toimistorakennusten alue"
       },
       "planRegulations": [
         {
@@ -245,6 +245,16 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/sallittuKerr
                 "number": 4000,
                 "unitOfMeasure": "k-m2"
               }
+            }
+          ]
+        },
+        {
+          "planRegulationKey": "237e6f3c-bde5-455a-9893-a8b92e768afb",
+          "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
+          "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/toimistorakennustenAlue",
+          "additionalInformations": [
+            {
+              "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatiedonlaji/code/paakayttotarkoitus"
             }
           ]
         }
