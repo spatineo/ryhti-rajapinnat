@@ -37,16 +37,25 @@ JSON: [SpatialPlan-useampiKayttotarkoituskohdistus](./SpatialPlan-useampiKayttot
 ## SpatialPlan-osaRakennusalastaVarattuKayttotarkoitukseen
 ![kuva esimerkistä](kuvat/osa-rakennusalan-rakennusoikeudesta-osoitettu-kayttotarkoitukseen.jpg "Osa rakennusalakohtaisesta rakennusoikeudesta osoitettu käyttötarkoituksittain")
 
-AL-korttelin alueelle aluevaraukseen ei ole osoitettu lainkaan rakennusoikeutta, vaan rakennusoikeus on osoitettu suoraan rakennusaloille. Alemmalle rakennusalalle on sallittu 4000 k-m2 ja ylemmälle rakennusalalle 6000 k-m2 rakennusoikeutta ilman käyttötarkoituskohdistusta. Korttelin sekoitettu käyttötarkoitus AL pätee. Rakennusalalle X sallitusta kokonaiskerrosalasta (4000 k-m2) on erikseen varattu asumiselle 2000 k-m2 (vastaa merkintää "a2000 m2") ja rakennusalan XII sallitusta kokonaiskerrosalasta (6000 k-m2) liikerakentamiselle 3000 k-m2 (vastaa Katja-asetuksessa määrittelemätöntä merkintää "kl3000 m2").
+AL-korttelin alueelle aluevaraukseen ei ole osoitettu lainkaan rakennusoikeutta, vaan rakennusoikeus on osoitettu suoraan rakennusaloille. Alemmalle rakennusalalle on sallittu 4000 k-m2 ja ylemmälle rakennusalalle 6000 k-m2 rakennusoikeutta ilman käyttötarkoituskohdistusta. Korttelin sekoitettu käyttötarkoitus AL pätee. Rakennusalalle X sallitusta kokonaiskerrosalasta (4000 k-m2) on erikseen osoitettu asumiselle 2000 k-m2 (vastaa merkintää "a2000 m2") ja rakennusalan XII sallitusta kokonaiskerrosalasta (6000 k-m2) liikerakentamiselle 3000 k-m2 (vastaa Katja-asetuksessa määrittelemätöntä merkintää "kl3000 m2").
 
 YAML: [SpatialPlan-osaRakennusalastaVarattuKayttotarkoitukseen.yml](./SpatialPlan-osaRakennusalastaVarattuKayttotarkoitukseen.yml)
 
-JSON: [SpatialPlan-osaRakennusalastaVarattuKayttotarkoitukseen](./SpatialPlan-useampiKayttotarkoituskohdistus.md) (generoitu automaattisesti)
+JSON: [SpatialPlan-osaRakennusalastaVarattuKayttotarkoitukseen](./SpatialPlan-osaRakennusalastaVarattuKayttotarkoitukseen.md) (generoitu automaattisesti)
+
+## SpatialPlan-prosenttiOsaRakennusalastaVarattuKayttotarkoitukseen
+![kuva esimerkistä](kuvat/prosenttiosa-rakennusalan-rakennusoikeudesta-osoitettu-kayttotarkoitukseen.jpg "Prosenttiosa rakennusalakohtaisesta rakennusoikeudesta osoitettu käyttötarkoituksittain")
+
+AL-korttelin alueelle aluevaraukseen ei ole osoitettu lainkaan rakennusoikeutta, vaan rakennusoikeus on osoitettu suoraan rakennusaloille. Alemmalle rakennusalalle on sallittu 4000 k-m2 ja ylemmälle rakennusalalle 6000 k-m2 rakennusoikeutta ilman käyttötarkoituskohdistusta. Korttelin sekoitettu käyttötarkoitus AL pätee. Rakennusalalle X sallitusta kokonaiskerrosalasta (4000 k-m2) on erikseen osoitettu asumiselle 50% (vastaa merkintää "a<sup>2</sup>50%") ja rakennusalan XII sallitusta kokonaiskerrosalasta (6000 k-m2) myymälätiloille 20% (vastaa Katja-asetuksessa määrittelemätöntä merkintää "klm<sup>2</sup>20%").
+
+YAML: [SpatialPlan-prosenttiOsaRakennusalastaVarattuKayttotarkoitukseen.yml](./SpatialPlan-prosenttiOsaRakennusalastaVarattuKayttotarkoitukseen.yml)
+
+JSON: [SpatialPlan-prosenttiOsaRakennusalastaVarattuKayttotarkoitukseen](./SpatialPlan-prosenttiOsaRakennusalastaVarattuKayttotarkoitukseen.md) (generoitu automaattisesti)
 
 ## SpatialPlan-osaRakennusalastaVarattuKayttotarkoitukseenEiRakennusalakohtaistaRakennusoikeutta
 ![kuva esimerkistä](kuvat/osa-aluevarauksen-rakennusoikeudesta-osoitettukayttotarkoitukseen-rakennusaloittain.jpg "Osa aluevarauksen rakennusoikeudesta osoitettu käyttötarkoituksittain")
 
-AL-korttelin alueelle on kokonaisuudessa sallittu 10000 k-m2 rakennusoikeutta jakamatta sitä rakennusalojen kesken. Rakennusalalle X sallitusta kokonaiskerrosalasta on varattu asumiselle 2000 k-m2 (vastaa merkintää "a2000 m2") ja rakennusalan XII sallitusta kokonaiskerrosalasta liikerakentamiselle 3000 k-m2 (vastaa Katja-asetuksessa määrittelemätöntä merkintää "kl3000 m2").
+AL-korttelin alueelle on kokonaisuudessa sallittu 10000 k-m2 rakennusoikeutta jakamatta sitä rakennusalojen kesken. Rakennusalalle X sallitusta kokonaiskerrosalasta on osoitettu asumiselle 2000 k-m2 (vastaa merkintää "a2000 m2") ja rakennusalan XII sallitusta kokonaiskerrosalasta liikerakentamiselle 3000 k-m2 (vastaa Katja-asetuksessa määrittelemätöntä merkintää "kl3000 m2").
 
 YAML: [SpatialPlan-osaRakennusalastaVarattuKayttotarkoitukseenEiRakennusalakohtaistaRakennusoikeutta.yml](./SpatialPlan-osaRakennusalastaVarattuKayttotarkoitukseenEiRakennusalakohtaistaRakennusoikeutta.yml)
 
