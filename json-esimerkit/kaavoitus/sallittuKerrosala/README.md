@@ -46,7 +46,7 @@ JSON: [SpatialPlan-osaRakennusalastaVarattuKayttotarkoitukseen](./SpatialPlan-os
 ## SpatialPlan-prosenttiOsaRakennusalastaVarattuKayttotarkoitukseen
 ![kuva esimerkistä](kuvat/prosenttiosa-rakennusalan-rakennusoikeudesta-osoitettu-kayttotarkoitukseen.jpg "Prosenttiosa rakennusalakohtaisesta rakennusoikeudesta osoitettu käyttötarkoituksittain")
 
-AL-korttelin alueelle aluevaraukseen ei ole osoitettu lainkaan rakennusoikeutta, vaan rakennusoikeus on osoitettu suoraan rakennusaloille. Alemmalle rakennusalalle on sallittu 4000 k-m2 ja ylemmälle rakennusalalle 6000 k-m2 rakennusoikeutta ilman käyttötarkoituskohdistusta. Korttelin sekoitettu käyttötarkoitus AL pätee. Rakennusalalle X sallitusta kokonaiskerrosalasta (4000 k-m2) on erikseen osoitettu asumiselle 50% (vastaa merkintää "a<sup>2</sup>50%") ja rakennusalan XII sallitusta kokonaiskerrosalasta (6000 k-m2) myymälätiloille 20% (vastaa Katja-asetuksessa määrittelemätöntä merkintää "klm<sup>2</sup>20%").
+AL-korttelin alueelle aluevaraukseen ei ole osoitettu lainkaan rakennusoikeutta, vaan rakennusoikeus on osoitettu suoraan rakennusaloille. Alemmalle rakennusalalle on sallittu 4000 k-m2 ja ylemmälle rakennusalalle 6000 k-m2 rakennusoikeutta ilman käyttötarkoituskohdistusta. Korttelin sekoitettu käyttötarkoitus AL pätee. Rakennusalalle X sallitusta kokonaiskerrosalasta (4000 k-m2) on erikseen osoitettu asumiselle 50% (vastaa merkintää "a<sup>2</sup>50%") ja rakennusalan XII sallitusta kokonaiskerrosalasta (6000 k-m2) myymälätiloille 20% (vastaa merkintää "klm<sup>2</sup>20%").
 
 YAML: [SpatialPlan-prosenttiOsaRakennusalastaVarattuKayttotarkoitukseen.yml](./SpatialPlan-prosenttiOsaRakennusalastaVarattuKayttotarkoitukseen.yml)
 
