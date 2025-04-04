@@ -125,7 +125,7 @@ planRegulationGroups:
         type: >-
           http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/ullakonSallittuOsuusKerrosalasta
         value:
-          dataType: Numeric
+          dataType: PositiveNumeric
           number: 33
           unitOfMeasure: '%'
 planRegulationGroupRelations:
