@@ -39,4 +39,3 @@ Validointia varten YAML-muotoiset esimerkkitiedostot muunnetaan automaattisesti 
 
 Jos sinulla on omia Ryhti-JSON -esimerkkejä, jotka haluaisit kaikkien nähtäville ja lisättäväksi tähän repoon, tee tästä reposta fork itsellesi ja lähetä lisäys Pull request -muodossa. Vain Ryhti-validoinnin läpäisevät esimerkit voidaan lisätä repoon (tarkistetaan automaattisesti).
 
-
