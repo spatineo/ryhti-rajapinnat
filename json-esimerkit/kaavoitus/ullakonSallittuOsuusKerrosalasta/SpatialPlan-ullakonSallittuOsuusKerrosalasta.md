@@ -218,7 +218,7 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/ullakonSalli
           "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
           "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/ullakonSallittuOsuusKerrosalasta",
           "value": {
-            "dataType": "Numeric",
+            "dataType": "PositiveNumeric",
             "number": 33,
             "unitOfMeasure": "%"
           }
