@@ -139,8 +139,8 @@ planRegulationGroups:
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
         type: http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/tuulivoimalanEnimmaiskorkeus
         value:
-          dataType: Decimal
-          number: 220
+          dataType: PositiveNumeric
+          number: 220.0
           unitOfMeasure: m
 planRegulationGroupRelations:
     # Metsätalousvaltainen alue -> Metsätalousvaltaisen alueen kaavakohde:
