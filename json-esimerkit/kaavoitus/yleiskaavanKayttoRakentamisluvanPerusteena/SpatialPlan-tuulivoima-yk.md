@@ -75,24 +75,28 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/yleiskaavanK
             ],
             [
               [
-                26483735.7482,
-                7031067.2196
+                26483735.4264,
+                7031066.8876
               ],
               [
-                26483861.6558,
-                7030814.4674
+                26483860.9918,
+                7030815.111
               ],
               [
-                26483628.0428,
-                7030698.3409
+                26483630.0756,
+                7030693.795
               ],
               [
-                26483467.79,
-                7030930.9383
+                26483468.122,
+                7030930.6165
               ],
               [
-                26483735.7482,
-                7031067.2196
+                26483600.1091,
+                7031000.6879
+              ],
+              [
+                26483735.4264,
+                7031066.8876
               ]
             ]
           ]
@@ -256,7 +260,7 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/yleiskaavanK
           "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04",
           "type": "http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/tuulivoimalanEnimmaiskorkeus",
           "value": {
-            "dataType": "Decimal",
+            "dataType": "PositiveNumeric",
             "number": 220,
             "unitOfMeasure": "m"
           }
