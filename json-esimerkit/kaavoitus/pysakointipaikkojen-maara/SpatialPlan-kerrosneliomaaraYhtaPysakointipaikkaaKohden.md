@@ -156,8 +156,9 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/pysakointipa
     {
       "planRegulationGroupKey": "783f457a-a8cc-4bb6-a491-a15dac0c999f",
       "titleOfPlanRegulation": {
-        "fin": "Kerrostalovaltainen asuntoalue"
+        "fin": "Asuinkerrostalojen alue"
       },
+      "letterIdentifier": "AK",
       "planRegulations": [
         {
           "planRegulationKey": "55e1f047-8c55-432a-9086-1642de870410",
