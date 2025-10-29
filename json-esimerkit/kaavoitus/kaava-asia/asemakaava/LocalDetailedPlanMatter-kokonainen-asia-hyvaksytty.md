@@ -173,6 +173,7 @@ Tiedosto on validoitu onnistuneesti Ryhti-testikäyttöliittymällä 26.9.2024
               "http://uri.suomi.fi/codelist/rytj/ryhtikielet/code/fi",
               "http://uri.suomi.fi/codelist/rytj/ryhtikielet/code/sv"
             ],
+            "fileKey": "a31118ce-95e4-4523-a356-0cf476a89f01",
             "documentDate": "2024-01-01",
             "typeOfAttachment": "http://uri.suomi.fi/codelist/rytj/RY_AsiakirjanLaji_YKAK/code/16"
           }
@@ -198,6 +199,7 @@ Tiedosto on validoitu onnistuneesti Ryhti-testikäyttöliittymällä 26.9.2024
               "http://uri.suomi.fi/codelist/rytj/ryhtikielet/code/fi",
               "http://uri.suomi.fi/codelist/rytj/ryhtikielet/code/sv"
             ],
+            "fileKey": "e47deecf-dac3-4a3a-be2f-301ee1eef68b",
             "documentDate": "2024-01-01",
             "typeOfAttachment": "http://uri.suomi.fi/codelist/rytj/RY_AsiakirjanLaji_YKAK/code/15"
           }

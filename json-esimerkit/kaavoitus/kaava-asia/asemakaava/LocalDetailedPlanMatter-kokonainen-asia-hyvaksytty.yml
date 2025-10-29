@@ -131,7 +131,7 @@ planMatterPhases:
           languages:
             - http://uri.suomi.fi/codelist/rytj/ryhtikielet/code/fi
             - http://uri.suomi.fi/codelist/rytj/ryhtikielet/code/sv
-          # fileKey: a31118ce-95e4-4523-a356-0cf476a89f01
+          fileKey: a31118ce-95e4-4523-a356-0cf476a89f01
           documentDate: 2024-01-01
           # 16 - Pöytäkirja:
           typeOfAttachment: http://uri.suomi.fi/codelist/rytj/RY_AsiakirjanLaji_YKAK/code/16
@@ -160,7 +160,7 @@ planMatterPhases:
           languages:
             - http://uri.suomi.fi/codelist/rytj/ryhtikielet/code/fi
             - http://uri.suomi.fi/codelist/rytj/ryhtikielet/code/sv
-          # fileKey: e47deecf-dac3-4a3a-be2f-301ee1eef68b
+          fileKey: e47deecf-dac3-4a3a-be2f-301ee1eef68b
           documentDate: 2024-01-01
           # 15 - Pöytäkirja:
           typeOfAttachment: http://uri.suomi.fi/codelist/rytj/RY_AsiakirjanLaji_YKAK/code/15    
