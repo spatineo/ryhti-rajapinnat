@@ -155,8 +155,9 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/korkeusasema
   "planRegulationGroups": [
     {
       "planRegulationGroupKey": "783f457a-a8cc-4bb6-a491-a15dac0c999f",
+      "letterIdentifier": "AK",
       "titleOfPlanRegulation": {
-        "fin": "Kerrostalovaltainen asuntoalue"
+        "fin": "Asuinkerrostalojen alue"
       },
       "planRegulations": [
         {
