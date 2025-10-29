@@ -84,8 +84,9 @@ planObjects:
       - 7c093fdb-21e3-4ba7-8a20-aa682ce56666
 planRegulationGroups:
   - planRegulationGroupKey: 783f457a-a8cc-4bb6-a491-a15dac0c999f
+    letterIdentifier: AK
     titleOfPlanRegulation:
-      fin: Kerrostalovaltainen asuntoalue
+      fin: Asuinkerrostalojen alue
     planRegulations:
       - planRegulationKey: 55e1f047-8c55-432a-9086-1642de870410
         lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/kaavaelinkaari/code/04
