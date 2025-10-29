@@ -103,7 +103,7 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/maatilanTalo
     {
       "planRegulationGroupKey": "b4e8033a-20dc-4eea-90f5-b0f7fa3f985d",
       "titleOfPlanRegulation": {
-        "fin": "Maatilojen talouskeskusten korttelialue"
+        "fin": "Maatilojen talouskeskusten alue"
       },
       "letterIdentifier": "AM-1",
       "planRegulations": [
