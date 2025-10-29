@@ -158,6 +158,7 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/rajoitukset-
       "titleOfPlanRegulation": {
         "fin": "Opetusrakennusten alue"
       },
+      "letterIdentifier": "OY",
       "planRegulations": [
         {
           "planRegulationKey": "55e1f047-8c55-432a-9086-1642de870410",
