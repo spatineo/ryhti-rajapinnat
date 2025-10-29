@@ -158,6 +158,7 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/ymparistoarv
       "titleOfPlanRegulation": {
         "fin": "Kulttuuritoiminnan rakennusten alue"
       },
+      "letterIdentifier": "YY",
       "planRegulations": [
         {
           "planRegulationKey": "55e1f047-8c55-432a-9086-1642de870410",
