@@ -39,7 +39,7 @@ matterAnnexes: #asian liitteet
 phases: #vaiheet, pakollinen
   - lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/sitovanTonttijaonElinkaarenTila/code/05 #pakollinen
     bindingPlotDivisionMatterPhaseKey: b6b91582-9113-413a-a9b9-f03fb9f9cadc #pakollinen
-    approvedPlanDecisionUri: https://uri.rakennetunymparistontietojarjestelma.fi/plandecision/03ccaed0-e882-4fbd-b430-ef9f1d8c687b #Viittaustunnus hyväksytyn kaavan päätökseen (URI-muoto: https://uri.rakennetunymparistontietojarjestelma.fi/plandecision/{plandecisionkey})
+    approvedPlanDecisionUri: https://uri.rakennetunymparistontietojarjestelma.fi/plandecision/8bb84bbd-d6cc-4ab1-98d0-d668331dbfed #Viittaustunnus hyväksytyn kaavan päätökseen (URI-muoto: https://uri.rakennetunymparistontietojarjestelma.fi/plandecision/{plandecisionkey})
     bindingPlotDivision:
       bindingPlotDivisionKey: 2b77ed86-8451-4e12-8a1a-381bf46fcb75 #pakollinen
       periodOfValidity: #pakollinen
@@ -97,7 +97,7 @@ phases: #vaiheet, pakollinen
               #unseparatedParcelIdentifier:  #määräaalatunnus  
           relationToBasicProperty: http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon/code/102 #suhde peruskiinteistöön, vain 3D-tonteille, koodisto; http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon
           relatedPlans: #liittyvät kaavat, pakollinen
-            - relatedPlanUri: https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-000012 #viittaustunnus (URL-muotoinen, https://uri.rakennetunymparistontietojarjestelma.fi/planmatter/{permanentplanidentifier})
+            - relatedPlanUri: https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-005865 #viittaustunnus (URL-muotoinen, https://uri.rakennetunymparistontietojarjestelma.fi/planmatter/{permanentplanidentifier})
               relatedProducerPlanIdentifier: '816632' # tuottajan oma kaavatunnus
           geometry: #pakollinen
             srid: '3879'
@@ -145,7 +145,7 @@ phases: #vaiheet, pakollinen
               #unseparatedParcelIdentifier:  #määräaalatunnus
           relationToBasicProperty: http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon/code/102 #suhde peruskiinteistöön, vain 3D-tonteille, koodisto; http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon,
           relatedPlans: #liittyvät kaavat, pakollinen
-            - relatedPlanUri: https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-000012 #viittaustunnus (URL-muotoinen, (https://uri.rakennetunymparistontietojarjestelma.fi/plan/{plankey})
+            - relatedPlanUri: https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-005865 #viittaustunnus (URL-muotoinen, (https://uri.rakennetunymparistontietojarjestelma.fi/plan/{plankey})
               relatedProducerPlanIdentifier: '816632' # tuottajan oma kaavatunnus
           geometry: #pakollinen
             srid: '3879'

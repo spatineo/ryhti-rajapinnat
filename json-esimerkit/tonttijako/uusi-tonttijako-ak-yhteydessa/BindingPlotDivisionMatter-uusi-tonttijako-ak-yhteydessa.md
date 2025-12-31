@@ -51,7 +51,7 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
     {
       "lifeCycleStatus": "http://uri.suomi.fi/codelist/rytj/sitovanTonttijaonElinkaarenTila/code/05",
       "bindingPlotDivisionMatterPhaseKey": "b6b91582-9113-413a-a9b9-f03fb9f9cadc",
-      "approvedPlanDecisionUri": "https://uri.rakennetunymparistontietojarjestelma.fi/plandecision/03ccaed0-e882-4fbd-b430-ef9f1d8c687b",
+      "approvedPlanDecisionUri": "https://uri.rakennetunymparistontietojarjestelma.fi/plandecision/8bb84bbd-d6cc-4ab1-98d0-d668331dbfed",
       "bindingPlotDivision": {
         "bindingPlotDivisionKey": "2b77ed86-8451-4e12-8a1a-381bf46fcb75",
         "periodOfValidity": {
@@ -144,7 +144,7 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
             "relationToBasicProperty": "http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon/code/102",
             "relatedPlans": [
               {
-                "relatedPlanUri": "https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-000012",
+                "relatedPlanUri": "https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-005865",
                 "relatedProducerPlanIdentifier": "816632"
               }
             ],
@@ -211,7 +211,7 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
             "relationToBasicProperty": "http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon/code/102",
             "relatedPlans": [
               {
-                "relatedPlanUri": "https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-000012",
+                "relatedPlanUri": "https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-005865",
                 "relatedProducerPlanIdentifier": "816632"
               }
             ],
