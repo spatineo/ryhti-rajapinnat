@@ -1,0 +1,260 @@
+name: #sitovan tonttijakoasian nimi, pakollinen
+  fin: Esimerkki sitovan tonttijaon asiasta, joka on hyväksytty erillisellä päätöksellä
+description: #kuvausteksti
+  fin: Tässä kuvataan miten kokonainen sitovan tonttijaon asia vaiheineen kuvataan JSON-muodossa
+bindingPlotDivisionType: http://uri.suomi.fi/codelist/rytj/sitovanTonttijaonLaji/code/02 #sitojen tonttijakoasian laji, koodisto http://uri.suomi.fi/codelist/rytj/sitovanTonttijaonLaji, pakollinen
+permanentBindingPlotDivisionIdentifier: TJ-000090 #sitovan tonttijaon pysyvä tunnus, pakollinen
+producerBindingPlotDivisionIdentifier: tunnus-134 #kunnan oma tonttijakotunnus
+caseIdentifiers: #asianhalllintatunnukset
+  - jokin-ahnro-12345
+recordNumbers: #diaarinumerot
+  - jokin-diaari-12345
+timeOfInitiation: 2025-03-01 #virelletulopäivä, pakollinen
+administrativeAreaIdentifiers: #hallinnollisen alueen tunnnukset, pakollinen
+  - '977' #Ylivieska
+responsibleParty: #vastuutaho
+  bindingPlotDivisionOperatorKey: 40a5adc2-b754-477f-a062-834d4a0539c1
+  organizationName: Kunnan X kiinteistötoimitusosasto
+#relatedBindingPlotDivisionMatters: #liittyvät tonttijakoasiat
+matterAnnexes: #asian liitteet
+  - attachmentDocumentKey: ab167987-e542-4bdb-af9e-45a314be3577 #asiakirjan avain, pakollinen
+    documentIdentifier: diaari-12345 #asiakirjan pysyvä tunnus, esim. diaarinumero, pakollinen
+    name: #pakollinen
+      fin: Tonttijakokartta
+    personalDataContent: http://uri.suomi.fi/codelist/rytj/henkilotietosisalto/code/1 #henkilötietosisältö, koodisto http://uri.suomi.fi/codelist/rytj/henkilotietosisalto, pakollinen
+    categoryOfPublicity: http://uri.suomi.fi/codelist/rytj/julkisuus/code/1 #julkisuusluokka, koodisto http://uri.suomi.fi/codelist/rytj/julkisuus, pakollinen
+    accessibility: true #saavutettavvuus, pakollinen
+    retentionTime: http://uri.suomi.fi/codelist/rytj/sailytysaika/code/01 #säilytysaika, koodisto http://uri.suomi.fi/codelist/rytj/sailytysaika, pakollinen
+    #confirmationDate: #vahvistuspäivämäärä
+    languages: #kielet, koodisto http://uri.suomi.fi/codelist/rytj/ryhtikielet, pakollinen
+      - http://uri.suomi.fi/codelist/rytj/ryhtikielet/code/fi
+    fileKey: 78c5b384-6b3c-41bc-8d5f-ebb720b6ee0a #pakollinen
+    #descriptors: #avainsanat
+    documentDate: 2025-12-01 #pakollinen
+    #arrivedDate: #saapumispäivämäärä
+    typeOfAttachment: http://uri.suomi.fi/codelist/rytj/sitovanTonttijaonAsiakirjanLaji/code/03 #koodisto http://uri.suomi.fi/codelist/rytj/sitovanTonttijaonAsiakirjanLaji, pakollinen
+    #documentSpecification: #asiakirjan lajin tarkenne
+    #documentCreatorOperators: #asiakirjan laatijat
+    #relatedBindingPlotDivisionAttachmentDocuments: #liittyvät asiakirjat
+
+phases: #vaiheet, pakollinen
+  - lifeCycleStatus: http://uri.suomi.fi/codelist/rytj/sitovanTonttijaonElinkaarenTila/code/05 #pakollinen
+    bindingPlotDivisionMatterPhaseKey: b6b91582-9113-413a-a9b9-f03fb9f9cadc #pakollinen
+    decision: #jos ei päätetty asemakaavan hyväksymispäätöksellä sen hyväksymisen yhteydessä
+      bindingPlotDivisionMatterDecisionKey: b82b5509-7515-46c1-8d5c-b95f924b1a4a #pakollinen
+      decisionDate: 2025-12-01 #päätöspäivämäärä, pakolllinen
+      dateOfDecision: 2025-12-02 #päätöksenantopäivämäärä, pakollinen
+      dateOfValidity: 2026-01-01 #lainvoimaisuupäivämäärä, pakollinen
+      decisionDocuments: #päätösasiakirjat, pakollinen
+        - attachmentDocumentKey: 61169f4c-e6b9-430c-8912-2440d25e7206 #asiakirjan avain, pakollinen
+          documentIdentifier: jokin-ahnro-12345 #asiakirjan pysyvä tunnus, esim. diaarinumero, pakollinen
+          name: #pakollinen
+            fin: Päätös erillisen sitovan tonttijaon hyväksymisestä
+          personalDataContent: http://uri.suomi.fi/codelist/rytj/henkilotietosisalto/code/1 #henkilötietosisältö, koodisto http://uri.suomi.fi/codelist/rytj/henkilotietosisalto, pakollinen
+          categoryOfPublicity: http://uri.suomi.fi/codelist/rytj/julkisuus/code/1 #julkisuusluokka, koodisto http://uri.suomi.fi/codelist/rytj/julkisuus, pakollinen
+          accessibility: true #saavutettavvuus, pakollinen
+          retentionTime: http://uri.suomi.fi/codelist/rytj/sailytysaika/code/01 #säilytysaika, pakollinen
+  #        confirmationDate: #vahvistuspäivämäärä
+          languages: #kielet, pakollinen
+            - http://uri.suomi.fi/codelist/rytj/ryhtikielet/code/fi
+          fileKey: 3bf2097c-e5cc-45db-b117-752286ce75ea #pakollinen
+  #        descriptors: #avainsanat
+          documentDate: 2025-12-01 #pakollinen
+  #        arrivedDate: #saapumispäivämäärä
+          typeOfAttachment: http://uri.suomi.fi/codelist/rytj/sitovanTonttijaonAsiakirjanLaji/code/11 #koodisto http://uri.suomi.fi/codelist/rytj/sitovanTonttijaonAsiakirjanLaji, pakollinen
+  #        documentSpecification: #asiakirjan lajin tarkenne
+  #        documentCreatorOperators: #asiakirjan laatijat
+  #        relatedBindingPlotDivisionAttachmentDocuments: #liittyvät asiakirjat
+      decisionArticle: #päätöspykälä, pakollinen
+         fin: §1234
+  #    decisionText:
+      name: http://uri.suomi.fi/codelist/rytj/AlueidenkayttopaatoksenNimi/code/0101 #päätöksen nimitys koodisto http://uri.suomi.fi/codelist/rytj/AlueidenkayttopaatoksenNimi, pakollinen
+  #    decisionIdentifier: #päätöstunnus
+      typeOfDecisionMaker: #päättäjän laji, koodisto http://uri.suomi.fi/codelist/rytj/PaatoksenTekija, pakollinen
+  #    statute: #ohjaava säännös
+  #      - nameOfStatute: #pakollinen
+  #        numberOfStatuteCollection: #pakollinen
+  #        yearOfStatuteCollection: #pakollinen
+  #        chapter: #luku
+  #        section: #pykälä
+  #        subsections: #momentit
+  #        paragraphs: #kohdat
+  #        subparagraphs: #alakohdat
+      decisionMaker: #päätöksentekijä
+        bindingPlotDivisionOperatorKey: 40a5adc2-b754-477f-a062-834d4a0539c1
+        organizationName: Kunnan X kiinteistötoimitusosasto
+  #    #bindingPlotDivisionCancellations: #kumoamiset, kun ei korvaavaa tonttijakoa
+    bindingPlotDivision:
+      bindingPlotDivisionKey: 2b77ed86-8451-4e12-8a1a-381bf46fcb75 #pakollinen
+      periodOfValidity: #pakollinen
+        begin: 2025-12-01
+      geographicalArea: #pakollinen
+        srid: '3879'
+        geometry:
+          type: Polygon
+          coordinates:
+            - - - 25476550.07917
+                - 7107279.100259999744594
+              - - 25476841.769170001149178
+                - 7107240.969399999827147
+              - - 25476865.15442
+                - 7107475.9019
+              - - 25476552.54112
+                - 7107486.972110000438988
+              - - 25476550.07917
+                - 7107279.100259999744594
+      plotDivisionPlots: # pakollinen
+        - plotDivisionPlotKey: 77859c78-dcf9-408c-94a3-6f282d43e422 #pakollinen
+          plotDivisionPlotIdentifier: '1' #tonttijakotontin tunnus, pakollinen
+          area:
+            dataType: PositiveNumeric
+            number: 60742
+            unitOfMeasure: m2
+          #projectedArea: # 3-ulotteisen tonttijakotontin (pintaan) projisoitu pinta-ala, vain 3D-tontit
+          areaReservations: #kaavassa osoitettu tontin aluevaraus, pakollinen
+            - http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/asumisenAlue
+            - http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/liikerakennustenAlue
+          areaReservationLetterIdentifier: AL #aluevarauksen kirjaintunnus, pakollinen. Pitääkö olla indeksinumero mukana? 
+          volumeOfBuilding: #abs. sallittu kerrosala, pakollinen
+            dataType: PositiveNumeric
+            number: 150
+            unitOfMeasure: k-m2
+          motherProperties: #muodostajakiinteistöt, pakollinen
+            - motherPropertyKey: 6d438cc6-80b5-4910-8c4a-bd7e8af4a917
+              containedArea: #pakollinen
+                dataType: PositiveNumeric
+                number: 60742
+                unitOfMeasure: m2
+              fullyIncluded: false #pakollinen
+              propertyIdentifier: .977-9-51-9 #kiinteistötunnus
+              #unseparatedParcelIdentifier:  #määräaalatunnus  
+          #relationToBasicProperty: http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon/code/102 #suhde peruskiinteistöön, vain 3D-tonteille, koodisto; http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon
+          relatedPlans: #liittyvät kaavat, pakollinen
+            - relatedPlanKey: 3bf1dad6-d644-49d1-a2af-77bc9192c119
+              relatedPlanUri: https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-005865 #viittaustunnus (URL-muotoinen, https://uri.rakennetunymparistontietojarjestelma.fi/planmatter/{permanentplanidentifier})
+              relatedProducerPlanIdentifier: '816632' # tuottajan oma kaavatunnus
+          geometry: #pakollinen
+            srid: '3879'
+            geometry:
+              type: Polygon
+              coordinates:
+                - - - 25476550.07917
+                    - 7107279.100259999744594
+                  - - 25476552.54112
+                    - 7107486.972110000438988
+                  - - 25476732.985210001468658
+                    - 7107480.58225
+                  - - 25476716.82392
+                    - 7107257.302729999646544
+                  - - 25476550.07917
+                    - 7107279.100259999744594
+          #verticalLimit: #tontin korkeussuuntainen ylä- ja alaraja, vain 3D-tonteille
+          #areaReservationRegulationUris: #viittaustunnukset kaavan aluevarausmääräyksiin, jotka koskevat tonttia, URI-muoto: https://uri.rakennetunymparistontietojarjestelma.fi/planregulation/{planregulationkey}
+          #  - https://uri.rakennetunymparistontietojarjestelma.fi/planregulation/ece18b9-74d0-4067-a48e-b30577300e42
+          #volumeOfBuildingRegulationUris: #viittaustunnukset kaavan rakennusoikeusmääräyksiin, jotka koskevat tonttia, URI-muoto: https://uri.rakennetunymparistontietojarjestelma.fi/planregulation/{planregulationkey}
+          #  - https://uri.rakennetunymparistontietojarjestelma.fi/planregulation/8cfb5dbc-8ae9-4476-a57a-8f349f7bc3f3     
+        
+        - plotDivisionPlotKey: d6087cca-e9d7-440b-8702-2cef0946fc54 #pakollinen
+          plotDivisionPlotIdentifier: '2' #tonttijakotontin tunnus, pakollinen
+          area:
+            dataType: PositiveNumeric
+            number: 29661
+            unitOfMeasure: m2
+          #projectedArea: # 3-ulotteisen tonttijakotontin (pintaan) projisoitu pinta-ala, vain 3D-tontit
+          areaReservations: #kaavassa osoitettu tontin aluevaraus, pakollinen
+            - http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/asumisenAlue
+            - http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayslaji/code/liikerakennustenAlue
+          areaReservationLetterIdentifier: AL #aluevarauksen kirjaintunnus, pakollinen. Pitääkö olla indeksinumero mukana? 
+          volumeOfBuilding: #abs. sallittu kerrosala, pakollinen
+            dataType: PositiveNumeric
+            number: 150
+            unitOfMeasure: k-m2
+          motherProperties: #muodostajakiinteistöt, pakollinen
+            - motherPropertyKey: 1adf0809-5c8e-4aca-a2c7-80d01645d702
+              containedArea: #pakollinen
+                dataType: PositiveNumeric
+                number: 29661
+                unitOfMeasure: m2
+              fullyIncluded: false #pakollinen
+              propertyIdentifier: .977-9-50-4 #kiinteistötunnus
+              #unseparatedParcelIdentifier:  #määräaalatunnus
+          #relationToBasicProperty: http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon/code/102 #suhde peruskiinteistöön, vain 3D-tonteille, koodisto; http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon,
+          relatedPlans: #liittyvät kaavat, pakollinen
+            - relatedPlanKey: c50a461d-6c75-400e-bcee-561dadf34d7a
+              relatedPlanUri: https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-005865 #viittaustunnus (URL-muotoinen, (https://uri.rakennetunymparistontietojarjestelma.fi/plan/{plankey})
+              relatedProducerPlanIdentifier: '816632' # tuottajan oma kaavatunnus
+          geometry: #pakollinen
+            srid: '3879'
+            geometry:
+              type: Polygon
+              coordinates:
+                - - - 25476716.82392
+                    - 7107257.302729999646544
+                  - - 25476732.985210001468658
+                    - 7107480.58225
+                  - - 25476865.15442
+                    - 7107475.9019
+                  - - 25476841.769170001149178
+                    - 7107240.969399999827147
+                  - - 25476716.82392
+                    - 7107257.302729999646544
+          #verticalLimit: #tontin korkeussuuntainen ylä- ja alaraja, vain 3D-tonteille
+          #areaReservationRegulationUris: #viittaustunnukset kaavan aluevarausmääräyksiin, jotka koskevat tonttia, URI-muoto: https://uri.rakennetunymparistontietojarjestelma.fi/planregulation/{planregulationkey}
+          #  - https://uri.rakennetunymparistontietojarjestelma.fi/planregulation/ece18b9-74d0-4067-a48e-b30577300e42
+          #volumeOfBuildingRegulationUris: #viittaustunnukset kaavan rakennusoikeusmääräyksiin, jotka koskevat tonttia, URI-muoto: https://uri.rakennetunymparistontietojarjestelma.fi/planregulation/{planregulationkey}
+          #  - https://uri.rakennetunymparistontietojarjestelma.fi/planregulation/8cfb5dbc-8ae9-4476-a57a-8f349f7bc3f3     
+      boundaryPoints: #pakollinen
+        - boundaryPointKey: 888afd49-45ad-46c2-8dd8-7973cf412210
+          boundaryPointOrPegId: '1'
+          geometry:
+            srid: '3879'
+            geometry:
+              type: Point
+              coordinates:
+                - 25476550.07917
+                - 7107279.10026
+        - boundaryPointKey: caad7fa1-7b45-4682-96e3-16b4cf9690e3
+          boundaryPointOrPegId: '2'
+          geometry:
+            srid: '3879'
+            geometry:
+              type: Point
+              coordinates:
+                - 25476552.54112
+                - 7107486.97211
+        - boundaryPointKey: 931ccce1-8415-4965-9aad-63ecc1c77988
+          boundaryPointOrPegId: '3'
+          geometry:
+            srid: '3879'
+            geometry:
+              type: Point
+              coordinates:
+                - 25476732.98521
+                - 7107480.58225
+        - boundaryPointKey: e6825e64-44d9-4e18-94d5-989a5085ee8b
+          boundaryPointOrPegId: '4'
+          geometry:
+            srid: '3879'
+            geometry:
+              type: Point
+              coordinates:
+                - 25476716.82392
+                - 7107257.30273
+        - boundaryPointKey: 48955caa-4e63-43cc-8723-1ef4dec78958
+          boundaryPointOrPegId: '5'
+          geometry:
+            srid: '3879'
+            geometry:
+              type: Point
+              coordinates:
+                - 25476865.15442
+                - 7107475.90190
+        - boundaryPointKey: 7500beab-540a-4558-9aec-dc7cc808ca63
+          boundaryPointOrPegId: '6'
+          geometry:
+            srid: '3879'
+            geometry:
+              type: Point
+              coordinates:
+                - 25476841.76917
+                - 7107240.96940
