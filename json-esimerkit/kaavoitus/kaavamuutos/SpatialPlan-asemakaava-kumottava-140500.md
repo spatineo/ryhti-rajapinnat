@@ -184,7 +184,7 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/kaavamuutos/
             6685423.913342494
           ],
           [
-            25490527.56869203,
+            25490527.568692028,
             6685450.154434912
           ],
           [
@@ -390,7 +390,7 @@ Automaattisesti generoitu YAML-tiedostosta json-esimerkit/kaavoitus/kaavamuutos/
                 6685423.913342494
               ],
               [
-                25490527.56869203,
+                25490527.568692028,
                 6685450.154434912
               ],
               [
