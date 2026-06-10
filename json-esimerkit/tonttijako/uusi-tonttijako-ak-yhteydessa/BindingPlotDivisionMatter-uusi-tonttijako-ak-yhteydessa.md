@@ -64,12 +64,12 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
             "coordinates": [
               [
                 [
-                  25476824.53877,
-                  7107025.71723
+                  25476550.07917,
+                  7107279.100259999744594
                 ],
                 [
-                  25476841.76917,
-                  7107240.9694
+                  25476841.769170001149178,
+                  7107240.969399999827147
                 ],
                 [
                   25476865.15442,
@@ -77,35 +77,11 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
                 ],
                 [
                   25476552.54112,
-                  7107486.97211
+                  7107486.972110000438988
                 ],
                 [
-                  25476450.00151,
-                  7107477.78748
-                ],
-                [
-                  25476448.03128,
-                  7107272.02337
-                ],
-                [
-                  25476441.13548,
-                  7107079.05798
-                ],
-                [
-                  25476492.36143,
-                  7106822.09896
-                ],
-                [
-                  25476580.84812,
-                  7106827.68527
-                ],
-                [
-                  25476820.84693,
-                  7106833.83527
-                ],
-                [
-                  25476824.53877,
-                  7107025.71723
+                  25476550.07917,
+                  7107279.100259999744594
                 ]
               ]
             ]
@@ -132,6 +108,7 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
             },
             "motherProperties": [
               {
+                "motherPropertyKey": "6d438cc6-80b5-4910-8c4a-bd7e8af4a917",
                 "containedArea": {
                   "dataType": "PositiveNumeric",
                   "number": 60742,
@@ -141,9 +118,9 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
                 "propertyIdentifier": ".977-9-51-9"
               }
             ],
-            "relationToBasicProperty": "http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon/code/102",
             "relatedPlans": [
               {
+                "relatedPlanKey": "3bf1dad6-d644-49d1-a2af-77bc9192c119",
                 "relatedPlanUri": "https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-005865",
                 "relatedProducerPlanIdentifier": "816632"
               }
@@ -156,23 +133,23 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
                   [
                     [
                       25476550.07917,
-                      7107279.10026
+                      7107279.100259999744594
                     ],
                     [
                       25476552.54112,
-                      7107486.97211
+                      7107486.972110000438988
                     ],
                     [
-                      25476732.98521,
+                      25476732.985210001468658,
                       7107480.58225
                     ],
                     [
                       25476716.82392,
-                      7107257.30273
+                      7107257.302729999646544
                     ],
                     [
                       25476550.07917,
-                      7107279.10026
+                      7107279.100259999744594
                     ]
                   ]
                 ]
@@ -199,6 +176,7 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
             },
             "motherProperties": [
               {
+                "motherPropertyKey": "1adf0809-5c8e-4aca-a2c7-80d01645d702",
                 "containedArea": {
                   "dataType": "PositiveNumeric",
                   "number": 29661,
@@ -211,6 +189,7 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
             "relationToBasicProperty": "http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon/code/102",
             "relatedPlans": [
               {
+                "relatedPlanKey": "c50a461d-6c75-400e-bcee-561dadf34d7a",
                 "relatedPlanUri": "https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-005865",
                 "relatedProducerPlanIdentifier": "816632"
               }
@@ -223,10 +202,10 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
                   [
                     [
                       25476716.82392,
-                      7107257.30273
+                      7107257.302729999646544
                     ],
                     [
-                      25476732.98521,
+                      25476732.985210001468658,
                       7107480.58225
                     ],
                     [
@@ -234,12 +213,12 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
                       7107475.9019
                     ],
                     [
-                      25476841.76917,
-                      7107240.9694
+                      25476841.769170001149178,
+                      7107240.969399999827147
                     ],
                     [
                       25476716.82392,
-                      7107257.30273
+                      7107257.302729999646544
                     ]
                   ]
                 ]
@@ -249,6 +228,7 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
         ],
         "boundaryPoints": [
           {
+            "boundaryPointKey": "888afd49-45ad-46c2-8dd8-7973cf412210",
             "boundaryPointOrPegId": "1",
             "geometry": {
               "srid": "3879",
@@ -262,6 +242,7 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
             }
           },
           {
+            "boundaryPointKey": "caad7fa1-7b45-4682-96e3-16b4cf9690e3",
             "boundaryPointOrPegId": "2",
             "geometry": {
               "srid": "3879",
@@ -275,6 +256,7 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
             }
           },
           {
+            "boundaryPointKey": "931ccce1-8415-4965-9aad-63ecc1c77988",
             "boundaryPointOrPegId": "3",
             "geometry": {
               "srid": "3879",
@@ -288,6 +270,7 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
             }
           },
           {
+            "boundaryPointKey": "e6825e64-44d9-4e18-94d5-989a5085ee8b",
             "boundaryPointOrPegId": "4",
             "geometry": {
               "srid": "3879",
@@ -301,6 +284,7 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
             }
           },
           {
+            "boundaryPointKey": "48955caa-4e63-43cc-8723-1ef4dec78958",
             "boundaryPointOrPegId": "5",
             "geometry": {
               "srid": "3879",
@@ -314,6 +298,7 @@ Huomaa, että tiedoston sisältö ei ole täysin realistinen.
             }
           },
           {
+            "boundaryPointKey": "7500beab-540a-4558-9aec-dc7cc808ca63",
             "boundaryPointOrPegId": "6",
             "geometry": {
               "srid": "3879",

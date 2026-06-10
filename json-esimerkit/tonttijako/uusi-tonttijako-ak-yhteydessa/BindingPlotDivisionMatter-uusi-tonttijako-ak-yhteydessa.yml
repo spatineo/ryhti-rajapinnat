@@ -49,28 +49,16 @@ phases: #vaiheet, pakollinen
         geometry:
           type: Polygon
           coordinates:
-            - - - 25476824.53877
-                - 7107025.71723
-              - - 25476841.76917
-                - 7107240.96940
+            - - - 25476550.07917
+                - 7107279.100259999744594
+              - - 25476841.769170001149178
+                - 7107240.969399999827147
               - - 25476865.15442
-                - 7107475.90190
+                - 7107475.9019
               - - 25476552.54112
-                - 7107486.97211
-              - - 25476450.00151
-                - 7107477.78748
-              - - 25476448.03128
-                - 7107272.02337
-              - - 25476441.13548
-                - 7107079.05798
-              - - 25476492.36143
-                - 7106822.09896
-              - - 25476580.84812
-                - 7106827.68527
-              - - 25476820.84693
-                - 7106833.83527
-              - - 25476824.53877
-                - 7107025.71723
+                - 7107486.972110000438988
+              - - 25476550.07917
+                - 7107279.100259999744594    
       plotDivisionPlots: # pakollinen
         - plotDivisionPlotKey: 77859c78-dcf9-408c-94a3-6f282d43e422 #pakollinen
           plotDivisionPlotIdentifier: '1' #tonttijakotontin tunnus, pakollinen
@@ -88,16 +76,18 @@ phases: #vaiheet, pakollinen
             number: 150
             unitOfMeasure: k-m2
           motherProperties: #muodostajakiinteistöt, pakollinen
-            - containedArea: #pakollinen
+            - motherPropertyKey: 6d438cc6-80b5-4910-8c4a-bd7e8af4a917
+              containedArea: #pakollinen
                 dataType: PositiveNumeric
                 number: 60742
                 unitOfMeasure: m2
               fullyIncluded: false #pakollinen
               propertyIdentifier: .977-9-51-9 #kiinteistötunnus
               #unseparatedParcelIdentifier:  #määräaalatunnus  
-          relationToBasicProperty: http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon/code/102 #suhde peruskiinteistöön, vain 3D-tonteille, koodisto; http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon
+          #relationToBasicProperty: http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon/code/102 #suhde peruskiinteistöön, vain 3D-tonteille, koodisto; http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon
           relatedPlans: #liittyvät kaavat, pakollinen
-            - relatedPlanUri: https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-005865 #viittaustunnus (URL-muotoinen, https://uri.rakennetunymparistontietojarjestelma.fi/planmatter/{permanentplanidentifier})
+            - relatedPlanKey: 3bf1dad6-d644-49d1-a2af-77bc9192c119
+              relatedPlanUri: https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-005865 #viittaustunnus (URL-muotoinen, https://uri.rakennetunymparistontietojarjestelma.fi/planmatter/{permanentplanidentifier})
               relatedProducerPlanIdentifier: '816632' # tuottajan oma kaavatunnus
           geometry: #pakollinen
             srid: '3879'
@@ -105,15 +95,15 @@ phases: #vaiheet, pakollinen
               type: Polygon
               coordinates:
                 - - - 25476550.07917
-                    - 7107279.10026
+                    - 7107279.100259999744594
                   - - 25476552.54112
-                    - 7107486.97211
-                  - - 25476732.98521
+                    - 7107486.972110000438988
+                  - - 25476732.985210001468658
                     - 7107480.58225
                   - - 25476716.82392
-                    - 7107257.30273
+                    - 7107257.302729999646544
                   - - 25476550.07917
-                    - 7107279.10026
+                    - 7107279.100259999744594
           #verticalLimit: #tontin korkeussuuntainen ylä- ja alaraja, vain 3D-tonteille
           #areaReservationRegulationUris: #viittaustunnukset kaavan aluevarausmääräyksiin, jotka koskevat tonttia, URI-muoto: https://uri.rakennetunymparistontietojarjestelma.fi/planregulation/{planregulationkey}
           #  - https://uri.rakennetunymparistontietojarjestelma.fi/planregulation/ece18b9-74d0-4067-a48e-b30577300e42
@@ -136,7 +126,8 @@ phases: #vaiheet, pakollinen
             number: 150
             unitOfMeasure: k-m2
           motherProperties: #muodostajakiinteistöt, pakollinen
-            - containedArea: #pakollinen
+            - motherPropertyKey: 1adf0809-5c8e-4aca-a2c7-80d01645d702
+              containedArea: #pakollinen
                 dataType: PositiveNumeric
                 number: 29661
                 unitOfMeasure: m2
@@ -145,7 +136,8 @@ phases: #vaiheet, pakollinen
               #unseparatedParcelIdentifier:  #määräaalatunnus
           relationToBasicProperty: http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon/code/102 #suhde peruskiinteistöön, vain 3D-tonteille, koodisto; http://uri.suomi.fi/codelist/rytj/RY_SuhdePeruskiinteistoon,
           relatedPlans: #liittyvät kaavat, pakollinen
-            - relatedPlanUri: https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-005865 #viittaustunnus (URL-muotoinen, (https://uri.rakennetunymparistontietojarjestelma.fi/plan/{plankey})
+            - relatedPlanKey: c50a461d-6c75-400e-bcee-561dadf34d7a
+              relatedPlanUri: https://uri.rakennetunymparistontietojarjestelma.fi/plan/AK-005865 #viittaustunnus (URL-muotoinen, (https://uri.rakennetunymparistontietojarjestelma.fi/plan/{plankey})
               relatedProducerPlanIdentifier: '816632' # tuottajan oma kaavatunnus
           geometry: #pakollinen
             srid: '3879'
@@ -153,22 +145,23 @@ phases: #vaiheet, pakollinen
               type: Polygon
               coordinates:
                 - - - 25476716.82392
-                    - 7107257.30273
-                  - - 25476732.98521
+                    - 7107257.302729999646544
+                  - - 25476732.985210001468658
                     - 7107480.58225
                   - - 25476865.15442
-                    - 7107475.90190
-                  - - 25476841.76917
-                    - 7107240.96940
+                    - 7107475.9019
+                  - - 25476841.769170001149178
+                    - 7107240.969399999827147
                   - - 25476716.82392
-                    - 7107257.30273
+                    - 7107257.302729999646544
           #verticalLimit: #tontin korkeussuuntainen ylä- ja alaraja, vain 3D-tonteille
           #areaReservationRegulationUris: #viittaustunnukset kaavan aluevarausmääräyksiin, jotka koskevat tonttia, URI-muoto: https://uri.rakennetunymparistontietojarjestelma.fi/planregulation/{planregulationkey}
           #  - https://uri.rakennetunymparistontietojarjestelma.fi/planregulation/ece18b9-74d0-4067-a48e-b30577300e42
           #volumeOfBuildingRegulationUris: #viittaustunnukset kaavan rakennusoikeusmääräyksiin, jotka koskevat tonttia, URI-muoto: https://uri.rakennetunymparistontietojarjestelma.fi/planregulation/{planregulationkey}
           #  - https://uri.rakennetunymparistontietojarjestelma.fi/planregulation/8cfb5dbc-8ae9-4476-a57a-8f349f7bc3f3     
       boundaryPoints: #pakollinen
-        - boundaryPointOrPegId: '1'
+        - boundaryPointKey: 888afd49-45ad-46c2-8dd8-7973cf412210
+          boundaryPointOrPegId: '1'
           geometry:
             srid: '3879'
             geometry:
@@ -176,7 +169,8 @@ phases: #vaiheet, pakollinen
               coordinates:
                 - 25476550.07917
                 - 7107279.10026
-        - boundaryPointOrPegId: '2'
+        - boundaryPointKey: caad7fa1-7b45-4682-96e3-16b4cf9690e3
+          boundaryPointOrPegId: '2'
           geometry:
             srid: '3879'
             geometry:
@@ -184,7 +178,8 @@ phases: #vaiheet, pakollinen
               coordinates:
                 - 25476552.54112
                 - 7107486.97211
-        - boundaryPointOrPegId: '3'
+        - boundaryPointKey: 931ccce1-8415-4965-9aad-63ecc1c77988
+          boundaryPointOrPegId: '3'
           geometry:
             srid: '3879'
             geometry:
@@ -192,7 +187,8 @@ phases: #vaiheet, pakollinen
               coordinates:
                 - 25476732.98521
                 - 7107480.58225
-        - boundaryPointOrPegId: '4'
+        - boundaryPointKey: e6825e64-44d9-4e18-94d5-989a5085ee8b
+          boundaryPointOrPegId: '4'
           geometry:
             srid: '3879'
             geometry:
@@ -200,7 +196,8 @@ phases: #vaiheet, pakollinen
               coordinates:
                 - 25476716.82392
                 - 7107257.30273
-        - boundaryPointOrPegId: '5'
+        - boundaryPointKey: 48955caa-4e63-43cc-8723-1ef4dec78958
+          boundaryPointOrPegId: '5'
           geometry:
             srid: '3879'
             geometry:
@@ -208,7 +205,8 @@ phases: #vaiheet, pakollinen
               coordinates:
                 - 25476865.15442
                 - 7107475.90190
-        - boundaryPointOrPegId: '6'
+        - boundaryPointKey: 7500beab-540a-4558-9aec-dc7cc808ca63
+          boundaryPointOrPegId: '6'
           geometry:
             srid: '3879'
             geometry:
